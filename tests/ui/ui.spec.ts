@@ -12,8 +12,4 @@ test.describe("Homepage", () => {
     await page.waitForSelector(Selectors.INTRO_TEXT_QUOTE);
     await page.waitForSelector(Selectors.FOOTER);
   });
-
-  test("should match snapshot", async ({ page }) => {
-    await expect(page).toHaveScreenshot();
-  });
 });
