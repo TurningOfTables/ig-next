@@ -9,12 +9,12 @@ export default function Home() {
       <SharedHead />
 
       <main className={styles.main}>
-        <Image src={headerImage} alt="Inexplicable Games Logo"></Image>
-        <p className={styles.introTextPrimary}>
+        <Image data-testid="header-image" src={headerImage} alt="Inexplicable Games Logo"></Image>
+        <p data-testid="intro-text-primary" className={styles.introTextPrimary}>
           A one man games company based in the UK, working with talented
           freelancers from around the world.
         </p>
-        <p className={styles.introTextQuote}>
+        <p data-testid="intro-text-secondary" className={styles.introTextQuote}>
           <q>
             Two roads diverged in a wood, and I ... I took the one just covered
             with brambles, Got covered in cuts and barely made it out alive.
@@ -22,7 +22,7 @@ export default function Home() {
         </p>
       </main>
 
-      <footer className={styles.footer}></footer>
+      <footer data-testid="footer" className={styles.footer}></footer>
     </div>
   );
 }
