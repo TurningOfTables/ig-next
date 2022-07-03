@@ -1,10 +1,11 @@
 import Image from "next/image";
 import headerImage from "../public/header.png";
 import SharedHead from "../components/sharedHead";
+import GameCardsContainer from "../components/gameCardsContainer";
 
 export default function Home() {
   return (
-    <div className="p-8 mx-auto text-center">
+    <div className="container mx-auto mt-10 text-center subpixel-antialiased">
       <SharedHead />
 
       <main>
@@ -18,7 +19,7 @@ export default function Home() {
           freelancers from around the world.
         </p>
         <p
-          className="max-w-md mx-auto text-xl"
+          className="max-w-md mx-auto text-xl italic"
           data-testid="intro-text-secondary"
         >
           <q>
@@ -27,9 +28,13 @@ export default function Home() {
           </q>{" "}
           ~ Robert Frost
         </p>
+        <GameCardsContainer />
       </main>
 
-      <footer className="border-t-2 border-black mt-10 fixed bottom-0" data-testid="footer">
+      <footer
+        className="text-left mt-2 bottom-0"
+        data-testid="footer"
+      >
         © Inexplicable Games
       </footer>
     </div>
