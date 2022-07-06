@@ -1,7 +1,8 @@
 import Image from "next/image";
+import Footer from "../components/footer"
 import headerImage from "../public/header.png";
 import SharedHead from "../components/sharedHead";
-import GameCardsContainer from "../components/gameCardsContainer";
+import GameCards from "../components/gameCards";
 
 export default function Home() {
   return (
@@ -28,15 +29,10 @@ export default function Home() {
           </q>{" "}
           ~ Robert Frost
         </p>
-        <GameCardsContainer />
+        <GameCards />
       </main>
 
-      <footer
-        className="text-left mt-2 bottom-0"
-        data-testid="footer"
-      >
-        © Inexplicable Games
-      </footer>
+      <Footer />
     </div>
   );
 }

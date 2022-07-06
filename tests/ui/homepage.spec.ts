@@ -6,7 +6,7 @@ test.describe("Homepage", () => {
     await page.goto("/");
   });
 
-  test("should load the homepage with major components", async ({ page }) => {
+  test("should load with major components", async ({ page }) => {
     await page.waitForSelector(Selectors.HEADER_IMAGE);
     await page.waitForSelector(Selectors.INTRO_TEXT);
     await page.waitForSelector(Selectors.INTRO_TEXT_QUOTE);

@@ -1,20 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders <GameCard /> component unchanged 1`] = `
+exports[`renders <Footer /> component unchanged 1`] = `
 <div>
-  <a
-    href="/test-path"
+  <footer
+    class="text-left mt-2 bottom-0"
+    data-testid="footer"
   >
-    <div
-      class="flex justify-center border-black border-2 m-5 w-64 h-64"
+    © Inexplicable Games |
+    <a
+      href="/presskit"
     >
-      <p
-        class="self-center"
-      >
-        TestName
-      </p>
-    </div>
-  </a>
+       Presskit
+    </a>
+  </footer>
 </div>
 `;
 
@@ -24,30 +22,18 @@ exports[`renders <GameCardsContainer /> component unchanged 1`] = `
     class="flex flex-row flex-wrap max-w-3xl mx-auto my-10 justify-center"
   >
     <a
-      href="/this-merchant-life"
-    >
-      <div
-        class="flex justify-center border-black border-2 m-5 w-64 h-64"
-      >
-        <p
-          class="self-center"
-        >
-          This Merchant Life
-        </p>
-      </div>
-    </a>
-    <a
       href="/showrunner"
     >
       <div
-        class="flex justify-center border-black border-2 m-5 w-64 h-64"
-      >
-        <p
-          class="self-center"
-        >
-          Showrunner
-        </p>
-      </div>
+        class="flex justify-center m-5 w-64 h-64 bg-cover hover:shadow-2xl transition ease-in-out hover:scale-105 duration-200 bg-[url('../public/showrunnerCard.png')]"
+      />
+    </a>
+    <a
+      href="/this-merchant-life"
+    >
+      <div
+        class="flex justify-center m-5 w-64 h-64 bg-cover hover:shadow-2xl transition ease-in-out hover:scale-105 duration-200 bg-[url('../public/tmlCard.jpg')]"
+      />
     </a>
   </div>
 </div>

@@ -1,7 +1,7 @@
 import { render } from "@testing-library/react";
-import GameCard from "../../components/gameCard";
-import GameCardsContainer from "../../components/gameCardsContainer";
+import GameCards from "../../components/gameCards";
 import SharedHead from "../../components/sharedHead";
+import Footer from "../../components/footer";
 
 it("renders <SharedHead /> component unchanged", () => {
   const { container } = render(<SharedHead />);
@@ -9,11 +9,11 @@ it("renders <SharedHead /> component unchanged", () => {
 });
 
 it("renders <GameCardsContainer /> component unchanged", () => {
-    const { container } = render(<GameCardsContainer/>);
-    expect(container).toMatchSnapshot();
-  });
+  const { container } = render(<GameCards />);
+  expect(container).toMatchSnapshot();
+});
 
-it("renders <GameCard /> component unchanged", () => {
-  const { container } = render(<GameCard path="/test-path" name="TestName" />);
+it("renders <Footer /> component unchanged", () => {
+  const { container } = render(<Footer />);
   expect(container).toMatchSnapshot();
 });
