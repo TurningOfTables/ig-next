@@ -1,4 +1,5 @@
 import SharedHead from "../components/sharedHead";
+import Footer from "../components/footer"
 import Image from "next/image";
 import headerImage from "../public/showrunnerHeader.png"
 
@@ -9,15 +10,13 @@ export default function Showrunner() {
 
       <main>
         <Image
-          data-testid="header-image"
+          data-testid="showrunner-header-image"
           src={headerImage}
-          alt="Showrunner Header Image"
+          alt="Showrunner Logo"
         ></Image>
       </main>
 
-      <footer className="text-left mt-2 bottom-0" data-testid="footer">
-        © Inexplicable Games
-      </footer>
+      <Footer />
     </div>
   );
 }
