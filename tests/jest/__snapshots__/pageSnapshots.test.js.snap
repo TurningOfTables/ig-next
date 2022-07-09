@@ -52,14 +52,14 @@ exports[`renders homepage unchanged 1`] = `
           href="/showrunner"
         >
           <div
-            class="flex justify-center m-5 w-64 h-64 bg-cover hover:shadow-2xl transition ease-in-out hover:scale-105 duration-200 bg-[url('../public/showrunnerCard.png')]"
+            class="flex justify-center m-5 w-64 h-64 bg-cover hover:shadow-2xl transition ease-in-out hover:scale-105 duration-200 bg-[url('/showrunnerCard.png')]"
           />
         </a>
         <a
           href="/this-merchant-life"
         >
           <div
-            class="flex justify-center m-5 w-64 h-64 bg-cover hover:shadow-2xl transition ease-in-out hover:scale-105 duration-200 bg-[url('../public/tmlCard.jpg')]"
+            class="flex justify-center m-5 w-64 h-64 bg-cover hover:shadow-2xl transition ease-in-out hover:scale-105 duration-200 bg-[url('/tmlCard.jpg')]"
           />
         </a>
       </div>
