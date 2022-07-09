@@ -8,14 +8,14 @@ export default function GameCards() {
       <Link href="/showrunner">
         <a>
           <div
-            className={`${standardStyles} bg-[url('../public/showrunnerCard.png')]`}
+            className={`${standardStyles} bg-[url('/showrunnerCard.png')]`}
           ></div>
         </a>
       </Link>
       <Link href="/this-merchant-life">
         <a>
           <div
-            className={`${standardStyles} bg-[url('../public/tmlCard.jpg')]`}
+            className={`${standardStyles} bg-[url('/tmlCard.jpg')]`}
           ></div>
         </a>
       </Link>

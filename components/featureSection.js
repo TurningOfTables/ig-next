@@ -8,12 +8,15 @@ export default function FeatureSection(props) {
     .toLowerCase()}`;
   const imgDataTestId = dataTestId + "-image";
   return (
-    <div data-testid={dataTestId} className="flex flex-wrap m-10 justify-center">
+    <div
+      data-testid={dataTestId}
+      className="flex flex-wrap m-10 justify-center"
+    >
       <div className="flex flex-col text-center max-w-2xl my-auto">
         <h2 className="text-2xl">{props.title}</h2>
         <p className="m-5">{props.text}</p>
       </div>
-      <div className="my-auto">
+      <div className="flex flex-col my-auto">
         <Image
           data-testid={imgDataTestId}
           src={props.imgSrc}
@@ -21,7 +24,6 @@ export default function FeatureSection(props) {
           width="270"
           height="270"
         ></Image>
-        <small>hello</small>
       </div>
     </div>
   );

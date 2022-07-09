@@ -8,8 +8,11 @@ export default function FeatureSectionReversed(props) {
     .toLowerCase()}`;
   const imgDataTestId = dataTestId + "-image";
   return (
-    <div data-testid={dataTestId} className="flex flex-wrap-reverse m-10 justify-center">
-      <div className="max-w-xs my-auto">
+    <div
+      data-testid={dataTestId}
+      className="flex flex-wrap-reverse m-10 justify-center"
+    >
+      <div className="flex flex-col max-w-xs my-auto">
         <Image
           data-testid={imgDataTestId}
           src={props.imgSrc}
