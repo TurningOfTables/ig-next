@@ -1,15 +1,15 @@
 import Image from "next/image";
-import Footer from "../components/footer"
+import Footer from "../components/footer";
 import headerImage from "../public/header.png";
 import SharedHead from "../components/sharedHead";
 import GameCards from "../components/gameCards";
 
 export default function Home() {
   return (
-    <div className="container mx-auto mt-10 text-center subpixel-antialiased">
+    <div>
       <SharedHead />
 
-      <main>
+      <main className="container mx-auto m-10 pl-10 pr-10 text-center subpixel-antialiased">
         <Image
           data-testid="header-image"
           src={headerImage}
@@ -26,12 +26,11 @@ export default function Home() {
           <q>
             Two roads diverged in a wood, and I ... I took the one just covered
             with brambles, Got covered in cuts and barely made it out alive.
-          </q>{" "}
+          </q>
           ~ Robert Frost
         </p>
         <GameCards />
       </main>
-
       <Footer />
     </div>
   );

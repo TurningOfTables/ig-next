@@ -54,15 +54,10 @@ exports[`renders <FeatureSection /> component unchanged 1`] = `
 exports[`renders <Footer /> component unchanged 1`] = `
 <div>
   <footer
-    class="text-left mt-2 bottom-0"
+    class="text-left pl-3 mt-2 bottom-0 bg-black text-white fixed w-full"
     data-testid="footer"
   >
-    © Inexplicable Games |
-    <a
-      href="/presskit"
-    >
-       Presskit
-    </a>
+    © Inexplicable Games
   </footer>
 </div>
 `;
@@ -70,22 +65,29 @@ exports[`renders <Footer /> component unchanged 1`] = `
 exports[`renders <GameCards /> component unchanged 1`] = `
 <div>
   <div
-    class="flex flex-row flex-wrap max-w-3xl mx-auto my-10 justify-center"
+    class="flex flex-col text-4xl mt-20"
   >
-    <a
-      href="/showrunner"
+    <h1>
+      Projects
+    </h1>
+    <div
+      class="flex flex-row flex-wrap max-w-3xl mx-auto my-5 justify-center"
     >
-      <div
-        class="flex justify-center m-5 w-64 h-64 bg-cover hover:shadow-2xl transition ease-in-out hover:scale-105 duration-200 bg-[url('/showrunnerCard.png')]"
-      />
-    </a>
-    <a
-      href="/this-merchant-life"
-    >
-      <div
-        class="flex justify-center m-5 w-64 h-64 bg-cover hover:shadow-2xl transition ease-in-out hover:scale-105 duration-200 bg-[url('/tmlCard.jpg')]"
-      />
-    </a>
+      <a
+        href="/showrunner"
+      >
+        <div
+          class="flex justify-center m-5 w-72 h-72 bg-cover hover:shadow-2xl transition ease-in-out hover:scale-105 duration-200 bg-[url('/showrunnerCard.png')]"
+        />
+      </a>
+      <a
+        href="/this-merchant-life"
+      >
+        <div
+          class="flex justify-center m-5 w-72 h-72 bg-cover hover:shadow-2xl transition ease-in-out hover:scale-105 duration-200 bg-[url('/tmlCard.jpg')]"
+        />
+      </a>
+    </div>
   </div>
 </div>
 `;

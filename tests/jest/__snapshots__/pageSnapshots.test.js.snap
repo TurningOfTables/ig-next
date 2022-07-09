@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders homepage unchanged 1`] = `
+exports[`renders Home page unchanged 1`] = `
 <div>
-  <div
-    class="container mx-auto mt-10 text-center subpixel-antialiased"
-  >
-    <main>
+  <div>
+    <main
+      class="container mx-auto m-10 pl-10 pr-10 text-center subpixel-antialiased"
+    >
       <span
         style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
       >
@@ -42,38 +42,505 @@ exports[`renders homepage unchanged 1`] = `
         <q>
           Two roads diverged in a wood, and I ... I took the one just covered with brambles, Got covered in cuts and barely made it out alive.
         </q>
-         
         ~ Robert Frost
       </p>
       <div
-        class="flex flex-row flex-wrap max-w-3xl mx-auto my-10 justify-center"
+        class="flex flex-col text-4xl mt-20"
       >
-        <a
-          href="/showrunner"
+        <h1>
+          Projects
+        </h1>
+        <div
+          class="flex flex-row flex-wrap max-w-3xl mx-auto my-5 justify-center"
         >
-          <div
-            class="flex justify-center m-5 w-64 h-64 bg-cover hover:shadow-2xl transition ease-in-out hover:scale-105 duration-200 bg-[url('/showrunnerCard.png')]"
-          />
-        </a>
-        <a
-          href="/this-merchant-life"
-        >
-          <div
-            class="flex justify-center m-5 w-64 h-64 bg-cover hover:shadow-2xl transition ease-in-out hover:scale-105 duration-200 bg-[url('/tmlCard.jpg')]"
-          />
-        </a>
+          <a
+            href="/showrunner"
+          >
+            <div
+              class="flex justify-center m-5 w-72 h-72 bg-cover hover:shadow-2xl transition ease-in-out hover:scale-105 duration-200 bg-[url('/showrunnerCard.png')]"
+            />
+          </a>
+          <a
+            href="/this-merchant-life"
+          >
+            <div
+              class="flex justify-center m-5 w-72 h-72 bg-cover hover:shadow-2xl transition ease-in-out hover:scale-105 duration-200 bg-[url('/tmlCard.jpg')]"
+            />
+          </a>
+        </div>
       </div>
+    </main>
+    <footer
+      class="text-left pl-3 mt-2 bottom-0 bg-black text-white fixed w-full"
+      data-testid="footer"
+    >
+      © Inexplicable Games
+    </footer>
+  </div>
+</div>
+`;
+
+exports[`renders Presskit page unchanged 1`] = `
+<div>
+  <div
+    class="container mx-auto mt-10 text-center subpixel-antialiased"
+  >
+    <main>
+      Presskit
     </main>
     <footer
       class="text-left mt-2 bottom-0"
       data-testid="footer"
     >
-      © Inexplicable Games |
-      <a
-        href="/presskit"
+      © Inexplicable Games
+    </footer>
+  </div>
+</div>
+`;
+
+exports[`renders Showrunner page unchanged 1`] = `
+<div>
+  <div
+    class="mx-auto mt-10 text-center subpixel-antialiased"
+  >
+    <main>
+      <span
+        style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
       >
-         Presskit
-      </a>
+        <span
+          style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+        >
+          <img
+            alt=""
+            aria-hidden="true"
+            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2724%27%20height=%2724%27/%3e"
+            style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+          />
+        </span>
+        <img
+          alt="Showrunner Logo"
+          data-nimg="intrinsic"
+          data-testid="showrunner-header-image"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+        />
+        <noscript />
+      </span>
+      <div
+        class="flex flex-wrap m-10 justify-center"
+        data-testid="feature-section-travel-and-trade"
+      >
+        <div
+          class="flex flex-col text-center max-w-2xl my-auto"
+        >
+          <h2
+            class="text-2xl"
+          >
+            Travel and Trade
+          </h2>
+          <p
+            class="m-5"
+          >
+            Traverse the medieval kingdom of Peregrine, making a profit wherever you go! Buy grain in the argricultural hub of Lancer then sell it for a profit in the mountainous settlement of Burnish.
+          </p>
+        </div>
+        <div
+          class="flex flex-col my-auto"
+        >
+          <span
+            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+          >
+            <span
+              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27270%27%20height=%27270%27/%3e"
+                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+              />
+            </span>
+            <img
+              alt="Travel and Trade image"
+              data-nimg="intrinsic"
+              data-testid="feature-section-travel-and-trade-image"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
+          </span>
+        </div>
+      </div>
+      <div
+        class="flex flex-wrap-reverse m-10 justify-center"
+        data-testid="feature-section-pay-for-protection"
+      >
+        <div
+          class="flex flex-col max-w-xs my-auto"
+        >
+          <span
+            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+          >
+            <span
+              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27270%27%20height=%27270%27/%3e"
+                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+              />
+            </span>
+            <img
+              alt="Pay for Protection image"
+              data-nimg="intrinsic"
+              data-testid="feature-section-pay-for-protection-image"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
+          </span>
+        </div>
+        <div
+          class="flex flex-col text-center max-w-2xl my-auto"
+        >
+          <h2
+            class="text-2xl"
+          >
+            Pay for Protection
+          </h2>
+          <p
+            class="m-5"
+          >
+            The roads are dangerous to travel, especially when you've got a cart full of valuable goods. Hire fighters to accompany your caravan as it makes its way through the kingdom, fight off attacks from bandits and wildlife
+          </p>
+        </div>
+      </div>
+      <div
+        class="flex flex-wrap m-10 justify-center"
+        data-testid="feature-section-upgrade-your-cart"
+      >
+        <div
+          class="flex flex-col text-center max-w-2xl my-auto"
+        >
+          <h2
+            class="text-2xl"
+          >
+            Upgrade Your Cart
+          </h2>
+          <p
+            class="m-5"
+          >
+            Beginning with a ramshackle old trade cart, you will be able to slowly outfit it into a state of the art vessel of commerce through upgrading the wheels, structure and horses
+          </p>
+        </div>
+        <div
+          class="flex flex-col my-auto"
+        >
+          <span
+            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+          >
+            <span
+              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27270%27%20height=%27270%27/%3e"
+                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+              />
+            </span>
+            <img
+              alt="Upgrade Your Cart image"
+              data-nimg="intrinsic"
+              data-testid="feature-section-upgrade-your-cart-image"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
+          </span>
+        </div>
+      </div>
+      <div
+        class="flex flex-wrap-reverse m-10 justify-center"
+        data-testid="feature-section-make-decisions"
+      >
+        <div
+          class="flex flex-col max-w-xs my-auto"
+        >
+          <span
+            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+          >
+            <span
+              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27270%27%20height=%27270%27/%3e"
+                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+              />
+            </span>
+            <img
+              alt="Make Decisions image"
+              data-nimg="intrinsic"
+              data-testid="feature-section-make-decisions-image"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
+          </span>
+        </div>
+        <div
+          class="flex flex-col text-center max-w-2xl my-auto"
+        >
+          <h2
+            class="text-2xl"
+          >
+            Make Decisions
+          </h2>
+          <p
+            class="m-5"
+          >
+            As you explore the towns of Peregrine and the lands in between you will regularly be confronted with choices and will have to deal with their consequences
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer
+      class="text-left pl-3 mt-2 bottom-0 bg-black text-white fixed w-full"
+      data-testid="footer"
+    >
+      © Inexplicable Games
+    </footer>
+  </div>
+</div>
+`;
+
+exports[`renders This Merchant Life page unchanged 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <main>
+      <span
+        style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+      >
+        <span
+          style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+        >
+          <img
+            alt=""
+            aria-hidden="true"
+            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2724%27%20height=%2724%27/%3e"
+            style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+          />
+        </span>
+        <img
+          alt="This Merchant Life Title Screen"
+          data-nimg="intrinsic"
+          data-testid="tml-header-image"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+        />
+        <noscript />
+      </span>
+      <div
+        class="flex flex-wrap m-10 justify-center"
+        data-testid="feature-section-travel-and-trade"
+      >
+        <div
+          class="flex flex-col text-center max-w-2xl my-auto"
+        >
+          <h2
+            class="text-2xl"
+          >
+            Travel and Trade
+          </h2>
+          <p
+            class="m-5"
+          >
+            Traverse the medieval kingdom of Peregrine, making a profit wherever you go! Buy grain in the argricultural hub of Lancer then sell it for a profit in the mountainous settlement of Burnish.
+          </p>
+        </div>
+        <div
+          class="flex flex-col my-auto"
+        >
+          <span
+            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+          >
+            <span
+              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27270%27%20height=%27270%27/%3e"
+                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+              />
+            </span>
+            <img
+              alt="Travel and Trade image"
+              data-nimg="intrinsic"
+              data-testid="feature-section-travel-and-trade-image"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
+          </span>
+        </div>
+      </div>
+      <div
+        class="flex flex-wrap-reverse m-10 justify-center"
+        data-testid="feature-section-pay-for-protection"
+      >
+        <div
+          class="flex flex-col max-w-xs my-auto"
+        >
+          <span
+            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+          >
+            <span
+              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27270%27%20height=%27270%27/%3e"
+                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+              />
+            </span>
+            <img
+              alt="Pay for Protection image"
+              data-nimg="intrinsic"
+              data-testid="feature-section-pay-for-protection-image"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
+          </span>
+        </div>
+        <div
+          class="flex flex-col text-center max-w-2xl my-auto"
+        >
+          <h2
+            class="text-2xl"
+          >
+            Pay for Protection
+          </h2>
+          <p
+            class="m-5"
+          >
+            The roads are dangerous to travel, especially when you've got a cart full of valuable goods. Hire fighters to accompany your caravan as it makes its way through the kingdom, fight off attacks from bandits and wildlife
+          </p>
+        </div>
+      </div>
+      <div
+        class="flex flex-wrap m-10 justify-center"
+        data-testid="feature-section-upgrade-your-cart"
+      >
+        <div
+          class="flex flex-col text-center max-w-2xl my-auto"
+        >
+          <h2
+            class="text-2xl"
+          >
+            Upgrade Your Cart
+          </h2>
+          <p
+            class="m-5"
+          >
+            Beginning with a ramshackle old trade cart, you will be able to slowly outfit it into a state of the art vessel of commerce through upgrading the wheels, structure and horses
+          </p>
+        </div>
+        <div
+          class="flex flex-col my-auto"
+        >
+          <span
+            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+          >
+            <span
+              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27270%27%20height=%27270%27/%3e"
+                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+              />
+            </span>
+            <img
+              alt="Upgrade Your Cart image"
+              data-nimg="intrinsic"
+              data-testid="feature-section-upgrade-your-cart-image"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
+          </span>
+        </div>
+      </div>
+      <div
+        class="flex flex-wrap-reverse m-10 justify-center"
+        data-testid="feature-section-make-decisions"
+      >
+        <div
+          class="flex flex-col max-w-xs my-auto"
+        >
+          <span
+            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+          >
+            <span
+              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27270%27%20height=%27270%27/%3e"
+                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+              />
+            </span>
+            <img
+              alt="Make Decisions image"
+              data-nimg="intrinsic"
+              data-testid="feature-section-make-decisions-image"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
+          </span>
+        </div>
+        <div
+          class="flex flex-col text-center max-w-2xl my-auto"
+        >
+          <h2
+            class="text-2xl"
+          >
+            Make Decisions
+          </h2>
+          <p
+            class="m-5"
+          >
+            As you explore the towns of Peregrine and the lands in between you will regularly be confronted with choices and will have to deal with their consequences
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer
+      class="text-left pl-3 mt-2 bottom-0 bg-black text-white fixed w-full"
+      data-testid="footer"
+    >
+      © Inexplicable Games
     </footer>
   </div>
 </div>
