@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { useState } from "react";
+import { Fragment, useState } from "react";
 
 export default function FeatureSection(props) {
   const [open, setOpen] = useState(false);
@@ -10,37 +10,36 @@ export default function FeatureSection(props) {
     .join("-")
     .toLowerCase()}`;
   const imgDataTestId = dataTestId + "-image";
-  return (
-    <div>
-      <div
-        data-testid={dataTestId}
-        className="flex flex-wrap m-10 justify-center"
-      >
-        <div className="flex flex-col text-center max-w-2xl my-auto">
-          <h2 className="text-2xl">{props.title}</h2>
-          <p className="m-5">{props.text}</p>
+  const imageSection = (
+    <div
+      onClick={() => setOpen(true)}
+      className="flex flex-col my-auto cursor-pointer"
+    >
+      <Image
+        data-testid={imgDataTestId}
+        src={props.imgSrc}
+        alt={imgAlt}
+        width="270"
+        height="270"
+      ></Image>
+      <div className="flex flex-row mx-auto mt-2">
+        <div className="mx-1">
+          <Image src="/zoom.png" alt="Zoom icon" width="16" height="16"></Image>
         </div>
-        <div onClick={() => setOpen(true)} className="flex flex-col my-auto">
-          <Image
-            data-testid={imgDataTestId}
-            src={props.imgSrc}
-            alt={imgAlt}
-            width="270"
-            height="270"
-          ></Image>
-          <div className="flex flex-row mx-auto mt-2 cursor-pointer">
-            <div className="mx-1">
-              <Image
-                src="/zoom.png"
-                alt="Zoom icon"
-                width="16"
-                height="16"
-              ></Image>
-            </div>
-            <small>Zoom</small>
-          </div>
-        </div>
+        <small>Zoom</small>
       </div>
+    </div>
+  );
+
+  const textSection = (
+    <div className="flex flex-col text-center max-w-2xl my-auto">
+      <h2 className="text-2xl">{props.title}</h2>
+      <p className="m-5">{props.text}</p>
+    </div>
+  );
+
+  const zoom = (
+    <div>
       {open && (
         <div
           onClick={() => setOpen(false)}
@@ -60,4 +59,27 @@ export default function FeatureSection(props) {
       )}
     </div>
   );
+
+  const wrapMode = props.reversed ? "flex-wrap-reverse" : "flex-wrap";
+  if (props.reversed) {
+    return (
+      <Fragment>
+        <div className={`${wrapMode} flex m-10 justify-center`}>
+          {imageSection}
+          {textSection}
+        </div>
+        {zoom}
+      </Fragment>
+    );
+  } else {
+    return (
+      <Fragment>
+        <div className={`${wrapMode} flex m-10 justify-center`}>
+          {textSection}
+          {imageSection}
+        </div>
+        {zoom}
+      </Fragment>
+    );
+  }
 }
