@@ -23,23 +23,23 @@ export default function Showrunner() {
         <FeatureSection
           title="Ut tincidunt pulvinar"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porta dui diam, eget luctus arcu vehicula id. Integer sed purus nisl. Nulla convallis diam blandit nunc imperdiet, vel pretium turpis hendrerit."
-          imgSrc="/showRunnerCard.png"
+          imgSrc="/showrunnerCard.png"
         />
         <FeatureSection
           title="Proin non libero"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed tincidunt diam. Vestibulum scelerisque porttitor felis, et eleifend quam cursus quis. In sed facilisis ante, eu dignissim tellus."
-          imgSrc="/showRunnerCard.png"
+          imgSrc="/showrunnerCard.png"
           reversed
         />
         <FeatureSection
           title="Pellentesque eu dolor"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id sagittis eros, in efficitur ligula. Nulla quis finibus lacus, sit amet lacinia ex. Etiam risus diam, varius eget ipsum egestas, pharetra ultricies urna."
-          imgSrc="/showRunnerCard.png"
+          imgSrc="/showrunnerCard.png"
         />
         <FeatureSection
           title="Phasellus ultricies mauris"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lobortis placerat erat ut posuere. Curabitur eu mi sit amet lectus tempor pretium in elementum dui. Phasellus congue dui felis, a tincidunt nisl viverra nec."
-          imgSrc="/showRunnerCard.png"
+          imgSrc="/showrunnerCard.png"
           reversed
         />
 
@@ -50,15 +50,15 @@ export default function Showrunner() {
         />
 
         <div className="flex flex-wrap mx-auto max-w-5xl justify-center">
-          <GameScreenshot imgSrc="/showRunnerCard.png" title="Screenshot" />
-          <GameScreenshot imgSrc="/showRunnerCard.png" title="Screenshot" />
-          <GameScreenshot imgSrc="/showRunnerCard.png" title="Screenshot" />
-          <GameScreenshot imgSrc="/showRunnerCard.png" title="Screenshot" />
-          <GameScreenshot imgSrc="/showRunnerCard.png" title="Screenshot" />
-          <GameScreenshot imgSrc="/showRunnerCard.png" title="Screenshot" />
-          <GameScreenshot imgSrc="/showRunnerCard.png" title="Screenshot" />
-          <GameScreenshot imgSrc="/showRunnerCard.png" title="Screenshot" />
-          <GameScreenshot imgSrc="/showRunnerCard.png" title="Screenshot" />
+          <GameScreenshot imgSrc="/showrunnerCard.png" title="Screenshot" />
+          <GameScreenshot imgSrc="/showrunnerCard.png" title="Screenshot" />
+          <GameScreenshot imgSrc="/showrunnerCard.png" title="Screenshot" />
+          <GameScreenshot imgSrc="/showrunnerCard.png" title="Screenshot" />
+          <GameScreenshot imgSrc="/showrunnerCard.png" title="Screenshot" />
+          <GameScreenshot imgSrc="/showrunnerCard.png" title="Screenshot" />
+          <GameScreenshot imgSrc="/showrunnerCard.png" title="Screenshot" />
+          <GameScreenshot imgSrc="/showrunnerCard.png" title="Screenshot" />
+          <GameScreenshot imgSrc="/showrunnerCard.png" title="Screenshot" />
         </div>
       </main>
 
