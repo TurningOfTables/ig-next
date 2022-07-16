@@ -2,8 +2,7 @@ import GameCard from "./gameCard";
 
 export default function GameCards() {
   return (
-    <div className="flex flex-col text-4xl mt-20">
-      <h1>Projects</h1>
+    <div className="flex flex-col text-4xl mt-10">
       <div className="flex flex-row flex-wrap max-w-3xl mx-auto my-5 justify-center">
         <GameCard
           link="/showrunner"

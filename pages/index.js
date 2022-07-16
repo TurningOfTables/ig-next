@@ -3,11 +3,13 @@ import Footer from "../components/footer";
 import headerImage from "../public/header.png";
 import SharedHead from "../components/sharedHead";
 import GameCards from "../components/gameCards";
+import NavBar from "../components/navBar";
 
 export default function Home() {
   return (
     <div>
       <SharedHead />
+      <NavBar />
 
       <main className="container mx-auto m-10 pl-10 pr-10 text-center subpixel-antialiased">
         <Image

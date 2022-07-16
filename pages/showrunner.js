@@ -3,13 +3,17 @@ import Footer from "../components/footer";
 import Image from "next/image";
 import FeatureSection from "../components/featureSection";
 import headerImage from "../public/showrunnerHeader.png";
+import NavBar from "../components/navBar";
+import SteamBanner from "../components/steamBanner";
+import GameScreenshot from "../components/gameScreenshot";
 
 export default function Showrunner() {
   return (
-    <div className="mx-auto mt-10 text-center subpixel-antialiased">
+    <div>
       <SharedHead />
+      <NavBar />
 
-      <main>
+      <main className="mx-auto mt-10 text-center subpixel-antialiased">
         <Image
           data-testid="showrunner-header-image"
           src={headerImage}
@@ -17,27 +21,45 @@ export default function Showrunner() {
         ></Image>
 
         <FeatureSection
-          title="Travel and Trade"
-          text="Traverse the medieval kingdom of Peregrine, making a profit wherever you go! Buy grain in the argricultural hub of Lancer then sell it for a profit in the mountainous settlement of Burnish."
-          imgSrc="/tmlCard-1.png"
+          title="Ut tincidunt pulvinar"
+          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porta dui diam, eget luctus arcu vehicula id. Integer sed purus nisl. Nulla convallis diam blandit nunc imperdiet, vel pretium turpis hendrerit."
+          imgSrc="/showRunnerCard.png"
         />
         <FeatureSection
-          title="Pay for Protection"
-          text="The roads are dangerous to travel, especially when you've got a cart full of valuable goods. Hire fighters to accompany your caravan as it makes its way through the kingdom, fight off attacks from bandits and wildlife"
-          imgSrc="/tmlCard-2.png"
+          title="Proin non libero"
+          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed tincidunt diam. Vestibulum scelerisque porttitor felis, et eleifend quam cursus quis. In sed facilisis ante, eu dignissim tellus."
+          imgSrc="/showRunnerCard.png"
           reversed
         />
         <FeatureSection
-          title="Upgrade Your Cart"
-          text="Beginning with a ramshackle old trade cart, you will be able to slowly outfit it into a state of the art vessel of commerce through upgrading the wheels, structure and horses"
-          imgSrc="/tmlCard-3.png"
+          title="Pellentesque eu dolor"
+          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id sagittis eros, in efficitur ligula. Nulla quis finibus lacus, sit amet lacinia ex. Etiam risus diam, varius eget ipsum egestas, pharetra ultricies urna."
+          imgSrc="/showRunnerCard.png"
         />
         <FeatureSection
-          title="Make Decisions"
-          text="As you explore the towns of Peregrine and the lands in between you will regularly be confronted with choices and will have to deal with their consequences"
-          imgSrc="/tmlCard-4.png"
+          title="Phasellus ultricies mauris"
+          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lobortis placerat erat ut posuere. Curabitur eu mi sit amet lectus tempor pretium in elementum dui. Phasellus congue dui felis, a tincidunt nisl viverra nec."
+          imgSrc="/showRunnerCard.png"
           reversed
         />
+
+        <SteamBanner
+          name="Showrunner"
+          status="out soon"
+          steamStoreId="2058200"
+        />
+
+        <div className="flex flex-wrap mx-auto max-w-5xl justify-center">
+          <GameScreenshot imgSrc="/showRunnerCard.png" title="Screenshot" />
+          <GameScreenshot imgSrc="/showRunnerCard.png" title="Screenshot" />
+          <GameScreenshot imgSrc="/showRunnerCard.png" title="Screenshot" />
+          <GameScreenshot imgSrc="/showRunnerCard.png" title="Screenshot" />
+          <GameScreenshot imgSrc="/showRunnerCard.png" title="Screenshot" />
+          <GameScreenshot imgSrc="/showRunnerCard.png" title="Screenshot" />
+          <GameScreenshot imgSrc="/showRunnerCard.png" title="Screenshot" />
+          <GameScreenshot imgSrc="/showRunnerCard.png" title="Screenshot" />
+          <GameScreenshot imgSrc="/showRunnerCard.png" title="Screenshot" />
+        </div>
       </main>
 
       <Footer />

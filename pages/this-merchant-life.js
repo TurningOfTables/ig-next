@@ -3,11 +3,15 @@ import Footer from "../components/footer";
 import FeatureSection from "../components/featureSection";
 import Image from "next/image";
 import headerImage from "../public/tmlHeader.jpg";
+import NavBar from "../components/navBar";
+import SteamBanner from "../components/steamBanner";
+import GameScreenshot from "../components/gameScreenshot";
 
 export default function ThisMerchantLife() {
   return (
-    <div className="">
+    <div>
       <SharedHead />
+      <NavBar />
 
       <main>
         <Image
@@ -15,7 +19,6 @@ export default function ThisMerchantLife() {
           src={headerImage}
           alt="This Merchant Life Title Screen"
         ></Image>
-
         <FeatureSection
           title="Travel and Trade"
           text="Traverse the medieval kingdom of Peregrine, making a profit wherever you go! Buy grain in the argricultural hub of Lancer then sell it for a profit in the mountainous settlement of Burnish."
@@ -37,6 +40,28 @@ export default function ThisMerchantLife() {
           text="As you explore the towns of Peregrine and the lands in between you will regularly be confronted with choices and will have to deal with their consequences"
           imgSrc="/tmlCard-4.png"
           reversed
+        />
+        <SteamBanner
+          name="This Merchant Life"
+          status="out now"
+          steamStoreId="666730"
+        />
+
+        <div className="flex flex-wrap mx-auto max-w-5xl justify-center">
+          <GameScreenshot imgSrc="/tmlCard.jpg" title="Screenshot" />
+          <GameScreenshot imgSrc="/tmlCard.jpg" title="Screenshot" />
+          <GameScreenshot imgSrc="/tmlCard.jpg" title="Screenshot" />
+          <GameScreenshot imgSrc="/tmlCard.jpg" title="Screenshot" />
+          <GameScreenshot imgSrc="/tmlCard.jpg" title="Screenshot" />
+          <GameScreenshot imgSrc="/tmlCard.jpg" title="Screenshot" />
+          <GameScreenshot imgSrc="/tmlCard.jpg" title="Screenshot" />
+          <GameScreenshot imgSrc="/tmlCard.jpg" title="Screenshot" />
+          <GameScreenshot imgSrc="/tmlCard.jpg" title="Screenshot" />
+        </div>
+        <SteamBanner
+          name="This Merchant Life"
+          status="out now"
+          steamStoreId="666730"
         />
       </main>
       <Footer />

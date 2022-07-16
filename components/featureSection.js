@@ -43,7 +43,7 @@ export default function FeatureSection(props) {
       {open && (
         <div
           onClick={() => setOpen(false)}
-          className="fixed top-0 l-0 h-full w-full bg-opacity-75 bg-black z-50"
+          className="fixed top-0 left-0 h-full w-full bg-opacity-75 bg-black z-50"
         >
           <div className="mx-auto max-w-lg max-h-lg top-2/4 translate-y-2/4">
             <Image
