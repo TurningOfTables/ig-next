@@ -56,9 +56,6 @@ export default function Showrunner() {
           <GameScreenshot imgSrc="/showrunnerCard.png" title="Screenshot" />
           <GameScreenshot imgSrc="/showrunnerCard.png" title="Screenshot" />
           <GameScreenshot imgSrc="/showrunnerCard.png" title="Screenshot" />
-          <GameScreenshot imgSrc="/showrunnerCard.png" title="Screenshot" />
-          <GameScreenshot imgSrc="/showrunnerCard.png" title="Screenshot" />
-          <GameScreenshot imgSrc="/showrunnerCard.png" title="Screenshot" />
         </div>
       </main>
 

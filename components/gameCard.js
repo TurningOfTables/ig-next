@@ -9,13 +9,14 @@ export default function GameCard({ imagePath, link, steamStoreId }) {
           className={`flex justify-center mx-5 w-64 h-64 bg-cover ${imagePath}`}
         ></a>
       </Link>
-      <div className="bg-black text-white mx-5 p-2 align-middle">
+      <div className="bg-black text-white h-11 mx-5 p-2 align-middle">
         <a
+          target="blank"
+          rel="noopener"
           href={`https://store.steampowered.com/app/${steamStoreId}`}
-          className="text-xl w-full h-full block my-auto underline"
+          className="text-xl w-full block my-auto underline"
         >
-          Buy on Steam
-          <div className="inline-block align-middle ml-2">
+          <div className="inline-block align-middle mr-2">
             <Image
               alt="Steam logo"
               height="25px"
@@ -23,6 +24,7 @@ export default function GameCard({ imagePath, link, steamStoreId }) {
               src="/steamLogo.png"
             ></Image>
           </div>
+          Buy on Steam
         </a>
       </div>
     </div>

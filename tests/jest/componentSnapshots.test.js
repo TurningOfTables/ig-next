@@ -6,16 +6,8 @@ import FeatureSection from "../../components/featureSection";
 import GameCard from "../../components/gameCard";
 import SteamWidget from "../../components/steamWidget";
 import SteamBanner from "../../components/steamBanner";
-
-it("renders <SharedHead /> component unchanged", () => {
-  const { container } = render(<SharedHead />);
-  expect(container).toMatchSnapshot();
-});
-
-it("renders <GameCards /> component unchanged", () => {
-  const { container } = render(<GameCards />);
-  expect(container).toMatchSnapshot();
-});
+import GameScreenshot from "../../components/gameScreenshot";
+import NavBar from "../../components/navBar";
 
 it("renders <FeatureSection /> component unchanged", () => {
   const { container } = render(
@@ -40,6 +32,11 @@ it("renders <FeatureSection /> reversed component unchanged", () => {
   expect(container).toMatchSnapshot();
 });
 
+it("renders <Footer /> component unchanged", () => {
+  const { container } = render(<Footer />);
+  expect(container).toMatchSnapshot();
+});
+
 it("renders <GameCard /> component unchanged", () => {
   const { container } = render(
     <GameCard
@@ -51,8 +48,20 @@ it("renders <GameCard /> component unchanged", () => {
   expect(container).toMatchSnapshot();
 });
 
-it("renders <SteamWidget /> component unchanged", () => {
-  const { container } = render(<SteamWidget />);
+it("renders <GameCards /> component unchanged", () => {
+  const { container } = render(<GameCards />);
+  expect(container).toMatchSnapshot();
+});
+
+it("renders <GameScreenshot /> component unchanged", () => {
+  const { container } = render(
+    <GameScreenshot title="Test" imgSrc="/test.png" />
+  );
+  expect(container).toMatchSnapshot();
+});
+
+it("renders <SharedHead /> component unchanged", () => {
+  const { container } = render(<SharedHead />);
   expect(container).toMatchSnapshot();
 });
 
@@ -61,7 +70,7 @@ it("renders <SteamBanner /> component unchanged", () => {
   expect(container).toMatchSnapshot();
 });
 
-it("renders <Footer /> component unchanged", () => {
-  const { container } = render(<Footer />);
+it("renders <SteamWidget /> component unchanged", () => {
+  const { container } = render(<SteamWidget />);
   expect(container).toMatchSnapshot();
 });

@@ -54,9 +54,6 @@ export default function ThisMerchantLife() {
           <GameScreenshot imgSrc="/tmlCard.jpg" title="Screenshot" />
           <GameScreenshot imgSrc="/tmlCard.jpg" title="Screenshot" />
           <GameScreenshot imgSrc="/tmlCard.jpg" title="Screenshot" />
-          <GameScreenshot imgSrc="/tmlCard.jpg" title="Screenshot" />
-          <GameScreenshot imgSrc="/tmlCard.jpg" title="Screenshot" />
-          <GameScreenshot imgSrc="/tmlCard.jpg" title="Screenshot" />
         </div>
         <SteamBanner
           name="This Merchant Life"
