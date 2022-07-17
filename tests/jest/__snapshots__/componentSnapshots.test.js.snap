@@ -275,10 +275,10 @@ exports[`renders <GameCard /> component unchanged 1`] = `
 exports[`renders <GameCards /> component unchanged 1`] = `
 <div>
   <div
-    class="flex flex-col text-4xl mt-10"
+    class="flex flex-col text-4xl mt-5"
   >
     <div
-      class="flex flex-row flex-wrap max-w-3xl mx-auto my-5 justify-center"
+      class="flex flex-row flex-wrap max-w-3xl mx-auto justify-center"
     >
       <div
         class="my-5"
