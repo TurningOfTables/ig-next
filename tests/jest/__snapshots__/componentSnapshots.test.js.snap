@@ -227,6 +227,7 @@ exports[`renders <GameCard /> component unchanged 1`] = `
     class="my-5"
   >
     <a
+      aria-label="Find out more about undefined"
       class="flex justify-center mx-5 w-64 h-64 bg-cover bg-[url('/tmlCard.png')]"
       href="/test"
     />
@@ -234,6 +235,7 @@ exports[`renders <GameCard /> component unchanged 1`] = `
       class="bg-black text-white h-11 mx-5 p-2 align-middle"
     >
       <a
+        aria-label="Buy undefined on Steam"
         class="text-xl w-full block my-auto underline"
         href="https://store.steampowered.com/app/0"
         rel="noopener"
@@ -284,6 +286,7 @@ exports[`renders <GameCards /> component unchanged 1`] = `
         class="my-5"
       >
         <a
+          aria-label="Find out more about Showrunner"
           class="flex justify-center mx-5 w-64 h-64 bg-cover bg-[url('/showrunnerCard.png')]"
           href="/showrunner"
         />
@@ -291,6 +294,7 @@ exports[`renders <GameCards /> component unchanged 1`] = `
           class="bg-black text-white h-11 mx-5 p-2 align-middle"
         >
           <a
+            aria-label="Buy Showrunner on Steam"
             class="text-xl w-full block my-auto underline"
             href="https://store.steampowered.com/app/2058200"
             rel="noopener"
@@ -330,6 +334,7 @@ exports[`renders <GameCards /> component unchanged 1`] = `
         class="my-5"
       >
         <a
+          aria-label="Find out more about This Merchant Life"
           class="flex justify-center mx-5 w-64 h-64 bg-cover bg-[url('/tmlCard.png')]"
           href="/this-merchant-life"
         />
@@ -337,6 +342,7 @@ exports[`renders <GameCards /> component unchanged 1`] = `
           class="bg-black text-white h-11 mx-5 p-2 align-middle"
         >
           <a
+            aria-label="Buy This Merchant Life on Steam"
             class="text-xl w-full block my-auto underline"
             href="https://store.steampowered.com/app/666730"
             rel="noopener"
