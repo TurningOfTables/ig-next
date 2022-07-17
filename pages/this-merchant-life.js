@@ -2,7 +2,7 @@ import SharedHead from "../components/sharedHead";
 import Footer from "../components/footer";
 import FeatureSection from "../components/featureSection";
 import Image from "next/image";
-import headerImage from "../public/tmlHeader.jpg";
+import headerImage from "../public/tmlHeader.png";
 import NavBar from "../components/navBar";
 import SteamBanner from "../components/steamBanner";
 import GameScreenshot from "../components/gameScreenshot";
@@ -48,12 +48,12 @@ export default function ThisMerchantLife() {
         />
 
         <div className="flex flex-wrap mx-auto max-w-5xl justify-center">
-          <GameScreenshot imgSrc="/tmlCard.jpg" title="Screenshot" />
-          <GameScreenshot imgSrc="/tmlCard.jpg" title="Screenshot" />
-          <GameScreenshot imgSrc="/tmlCard.jpg" title="Screenshot" />
-          <GameScreenshot imgSrc="/tmlCard.jpg" title="Screenshot" />
-          <GameScreenshot imgSrc="/tmlCard.jpg" title="Screenshot" />
-          <GameScreenshot imgSrc="/tmlCard.jpg" title="Screenshot" />
+          <GameScreenshot imgSrc="/tmlCard.png" title="Screenshot" />
+          <GameScreenshot imgSrc="/tmlCard.png" title="Screenshot" />
+          <GameScreenshot imgSrc="/tmlCard.png" title="Screenshot" />
+          <GameScreenshot imgSrc="/tmlCard.png" title="Screenshot" />
+          <GameScreenshot imgSrc="/tmlCard.png" title="Screenshot" />
+          <GameScreenshot imgSrc="/tmlCard.png" title="Screenshot" />
         </div>
         <SteamBanner
           name="This Merchant Life"

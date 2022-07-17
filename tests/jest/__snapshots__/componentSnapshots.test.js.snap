@@ -227,7 +227,7 @@ exports[`renders <GameCard /> component unchanged 1`] = `
     class="my-5"
   >
     <a
-      class="flex justify-center mx-5 w-64 h-64 bg-cover bg-[url('/tmlCard.jpg')]"
+      class="flex justify-center mx-5 w-64 h-64 bg-cover bg-[url('/tmlCard.png')]"
       href="/test"
     />
     <div
@@ -330,7 +330,7 @@ exports[`renders <GameCards /> component unchanged 1`] = `
         class="my-5"
       >
         <a
-          class="flex justify-center mx-5 w-64 h-64 bg-cover bg-[url('/tmlCard.jpg')]"
+          class="flex justify-center mx-5 w-64 h-64 bg-cover bg-[url('/tmlCard.png')]"
           href="/this-merchant-life"
         />
         <div

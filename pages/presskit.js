@@ -1,5 +1,6 @@
 import NavBar from "../components/navBar";
 import SharedHead from "../components/sharedHead";
+import Footer from "../components/footer";
 
 export default function Presskit() {
   return (
@@ -11,9 +12,7 @@ export default function Presskit() {
         Presskit
       </main>
 
-      <footer className="text-left mt-2 bottom-0" data-testid="footer">
-        © Inexplicable Games
-      </footer>
+      <Footer />
     </div>
   );
 }

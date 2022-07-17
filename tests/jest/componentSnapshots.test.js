@@ -42,7 +42,7 @@ it("renders <GameCard /> component unchanged", () => {
     <GameCard
       link="/test"
       steamStoreId="0"
-      imagePath="bg-[url('/tmlCard.jpg')]"
+      imagePath="bg-[url('/tmlCard.png')]"
     />
   );
   expect(container).toMatchSnapshot();
