@@ -8,8 +8,10 @@
     "start-without-port": "next start",
     "start": "next start -p $PORT",
     "lint": "next lint",
+    "test": "jest && npx playwright test",
     "test:component": "jest",
-    "test:ui": "npx playwright test"
+    "test:ui": "npx playwright test",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "12.1.6",
@@ -27,6 +29,7 @@
     "babel-jest": "^28.1.1",
     "eslint": "8.18.0",
     "eslint-config-next": "12.1.6",
+    "husky": "^8.0.1",
     "jest": "^28.1.2",
     "jest-environment-jsdom": "^28.1.2",
     "postcss": "^8.4.14",
