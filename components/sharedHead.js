@@ -6,7 +6,7 @@ export default function SharedHead() {
       <title>Inexplicable Games</title>
       <meta
         name="description"
-        content="A one man games company based in the UK, working with some talented freelancers. "
+        content="A one man games company based in the UK, creator of This Merchant Life and Showrunner. "
       />
 
       <link
