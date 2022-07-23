@@ -6,6 +6,7 @@ import headerImage from "../public/tmlHeader.png";
 import NavBar from "../components/navBar";
 import SteamBanner from "../components/steamBanner";
 import GameScreenshot from "../components/gameScreenshot";
+import Video from "../components/video";
 
 export default function ThisMerchantLife() {
   return (
@@ -19,6 +20,7 @@ export default function ThisMerchantLife() {
           src={headerImage}
           alt="This Merchant Life Title Screen"
         ></Image>
+
         <FeatureSection
           title="Travel and Trade"
           text="Traverse the medieval kingdom of Peregrine, making a profit wherever you go! Buy grain in the argricultural hub of Lancer then sell it for a profit in the mountainous settlement of Burnish."
@@ -60,6 +62,8 @@ export default function ThisMerchantLife() {
           status="out now"
           steamStoreId="666730"
         />
+
+        <Video videoId="DEqhV7cZfP0" title="This Merchant Life Trailer" />
       </main>
       <Footer />
     </div>

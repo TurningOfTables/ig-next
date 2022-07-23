@@ -6,6 +6,7 @@ import headerImage from "../public/showrunnerHeader.png";
 import NavBar from "../components/navBar";
 import SteamBanner from "../components/steamBanner";
 import GameScreenshot from "../components/gameScreenshot";
+import Video from "../components/video";
 
 export default function Showrunner() {
   return (
@@ -57,6 +58,13 @@ export default function Showrunner() {
           <GameScreenshot imgSrc="/showrunnerCard.png" title="Screenshot" />
           <GameScreenshot imgSrc="/showrunnerCard.png" title="Screenshot" />
         </div>
+
+        <SteamBanner
+          name="Showrunner"
+          status="out soon"
+          steamStoreId="2058200"
+        />
+        <Video videoId="8UPMQbm8WkQ" title="Showrunner Trailer" />
       </main>
 
       <Footer />
