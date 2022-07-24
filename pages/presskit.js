@@ -2,6 +2,7 @@ import NavBar from "../components/navBar";
 import SharedHead from "../components/sharedHead";
 import PresskitSection from "../components/presskitSection";
 import Footer from "../components/footer";
+import GameDetails from "../components/gameDetails";
 
 export default function Presskit() {
   return (
@@ -37,20 +38,7 @@ export default function Presskit() {
           content="https://www.inexplicable-games.com"
         />
 
-        <div className="border-b border-gray-200">
-          <ul className="flex flex-wrap text-center">
-            <li className="mr-2">
-              <a href="#" className="inline-block">
-                Showrunner
-              </a>
-            </li>
-            <li className="mr-2">
-              <a href="#" className="inline-block">
-                This Merchant Life
-              </a>
-            </li>
-          </ul>
-        </div>
+        <GameDetails />
       </main>
 
       <Footer />

@@ -1,5 +1,53 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`renders <ContactUs /> component unchanged 1`] = `
+<div>
+  <div
+    class="flex justify-center mt-2"
+  >
+    <a
+      class="underline flex"
+      href="https://twitter.com/Inexplicable_G"
+      rel="noopener"
+      target="blank"
+    >
+      <div
+        class="mr-2"
+      >
+        <span
+          style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+        >
+          <span
+            style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+          >
+            <img
+              alt=""
+              aria-hidden="true"
+              src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2732%27%20height=%2732%27/%3e"
+              style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+            />
+          </span>
+          <img
+            alt="Twitter logo"
+            data-nimg="intrinsic"
+            data-testid="twitter-logo"
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+          />
+          <noscript />
+        </span>
+      </div>
+      <div
+        class="text-lg inline"
+      >
+        @Inexplicable_G
+      </div>
+    </a>
+  </div>
+</div>
+`;
+
 exports[`renders <FeatureSection /> component unchanged 1`] = `
 <div>
   <div
@@ -383,6 +431,202 @@ exports[`renders <GameCards /> component unchanged 1`] = `
 </div>
 `;
 
+exports[`renders <GameDetails /> component unchanged 1`] = `
+<div>
+  <div>
+    <div
+      class="text-xl mb-5"
+    >
+      Game Details
+    </div>
+    <div
+      class="mb-20 border border-black"
+    >
+      <ul
+        class="flex flex-wrap mx-auto text-center place-items-center my-auto"
+      >
+        <li
+          class="w-1/2 text-lg cursor-pointer bg-gray-400"
+        >
+          <div
+            class="inline-block"
+          >
+            Showrunner
+          </div>
+        </li>
+        <li
+          class="w-1/2 text-lg cursor-pointer bg-gray-200 text-gray-500"
+        >
+          <div
+            class="inline-block"
+          >
+            This Merchant Life
+          </div>
+        </li>
+      </ul>
+      <div
+        class="m-5 my-10"
+      >
+        <div
+          class="my-10"
+        >
+          <div
+            class="text-lg my-2"
+          >
+            Description
+          </div>
+          <div>
+            Create and run your own TV show! An isometric management game where you craft scripts, populate your world with characters and cast actors to play them. Hire and manage staff, develop your studio and gain a dedicated following.
+          </div>
+        </div>
+        <div
+          class="my-10"
+        >
+          <div
+            class="text-lg my-2"
+          >
+            Genre
+          </div>
+          <div>
+            Simulation, Strategy, Management, Singleplayer
+          </div>
+        </div>
+        <div
+          class="my-10"
+        >
+          <div
+            class="text-lg my-2"
+          >
+            Platforms
+          </div>
+          <div>
+            PC - Steam
+          </div>
+        </div>
+        <div
+          class="my-10"
+        >
+          <div
+            class="text-lg my-2"
+          >
+            Store
+          </div>
+          <div>
+            <a
+              href="https://store.steampowered.com/app/2058200"
+              rel="noopener"
+              target="blank"
+            >
+              <div
+                class="inline-block align-middle"
+              >
+                <span
+                  style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+                >
+                  <span
+                    style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+                  >
+                    <img
+                      alt=""
+                      aria-hidden="true"
+                      src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2725%27%20height=%2725%27/%3e"
+                      style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+                    />
+                  </span>
+                  <img
+                    alt="Steam logo"
+                    data-nimg="intrinsic"
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+                  />
+                  <noscript />
+                </span>
+              </div>
+              <div
+                class="inline-block align-middle ml-2 underline"
+              >
+                Steam
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders <GameDetailsSection /> component unchanged 1`] = `
+<div>
+  <div
+    class="my-10"
+  >
+    <div
+      class="text-lg my-2"
+    >
+      Test
+    </div>
+    <div>
+      Test
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders <GameDetailsSection /> store link component unchanged 1`] = `
+<div>
+  <div
+    class="my-10"
+  >
+    <div
+      class="text-lg my-2"
+    >
+      Test
+    </div>
+    <div>
+      <a
+        href="https://store.steampowered.com/app/Test"
+        rel="noopener"
+        target="blank"
+      >
+        <div
+          class="inline-block align-middle"
+        >
+          <span
+            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+          >
+            <span
+              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2725%27%20height=%2725%27/%3e"
+                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+              />
+            </span>
+            <img
+              alt="Steam logo"
+              data-nimg="intrinsic"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
+          </span>
+        </div>
+        <div
+          class="inline-block align-middle ml-2 underline"
+        >
+          Steam
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`renders <GameScreenshot /> component unchanged 1`] = `
 <div>
   <div
@@ -452,6 +696,23 @@ exports[`renders <GameScreenshot /> component unchanged 1`] = `
 </div>
 `;
 
+exports[`renders <PresskitSection /> component unchanged 1`] = `
+<div>
+  <div
+    class="my-10"
+  >
+    <h2
+      class="text-xl my-5"
+    >
+      Test
+    </h2>
+    <div>
+      Test
+    </div>
+  </div>
+</div>
+`;
+
 exports[`renders <SharedHead /> component unchanged 1`] = `<div />`;
 
 exports[`renders <SteamBanner /> component unchanged 1`] = `
@@ -505,6 +766,27 @@ exports[`renders <SteamWidget /> component unchanged 1`] = `
       class="mx-auto min-w-[500px] min-h-[200px]"
       src="https://store.steampowered.com/widget/undefined/?t=%20"
     />
+  </div>
+</div>
+`;
+
+exports[`renders <Video /> component unchanged 1`] = `
+<div>
+  <div
+    class="max-w-lg mt-10 mb-20 mx-auto"
+  >
+    <div
+      class="relative pb-[56.25%] h-0 overflow-hidden"
+    >
+      <iframe
+        allow="encrypted-media"
+        allowfullscreen=""
+        class="absolute t-0 l-0 w-full h-full"
+        frameborder="0"
+        src="https://www.youtube-nocookie.com/embed/8UPMQbm8WkQ?modestbranding=1&rel=0"
+        title="Test"
+      />
+    </div>
   </div>
 </div>
 `;

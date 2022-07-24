@@ -8,6 +8,16 @@ import SteamWidget from "../../components/steamWidget";
 import SteamBanner from "../../components/steamBanner";
 import GameScreenshot from "../../components/gameScreenshot";
 import NavBar from "../../components/navBar";
+import ContactUs from "../../components/contactUs";
+import GameDetails from "../../components/gameDetails";
+import GameDetailsSection from "../../components/gameDetailsSection";
+import PresskitSection from "../../components/presskitSection";
+import Video from "../../components/video";
+
+it("renders <ContactUs /> component unchanged", () => {
+  const { container } = render(<ContactUs />);
+  expect(container).toMatchSnapshot();
+});
 
 it("renders <FeatureSection /> component unchanged", () => {
   const { container } = render(
@@ -53,10 +63,34 @@ it("renders <GameCards /> component unchanged", () => {
   expect(container).toMatchSnapshot();
 });
 
+it("renders <GameDetails /> component unchanged", () => {
+  const { container } = render(<GameDetails />);
+  expect(container).toMatchSnapshot();
+});
+
+it("renders <GameDetailsSection /> component unchanged", () => {
+  const { container } = render(
+    <GameDetailsSection title="Test" content="Test" />
+  );
+  expect(container).toMatchSnapshot();
+});
+
+it("renders <GameDetailsSection /> store link component unchanged", () => {
+  const { container } = render(
+    <GameDetailsSection title="Test" content="Test" storeLink />
+  );
+  expect(container).toMatchSnapshot();
+});
+
 it("renders <GameScreenshot /> component unchanged", () => {
   const { container } = render(
     <GameScreenshot title="Test" imgSrc="/test.png" />
   );
+  expect(container).toMatchSnapshot();
+});
+
+it("renders <PresskitSection /> component unchanged", () => {
+  const { container } = render(<PresskitSection title="Test" content="Test" />);
   expect(container).toMatchSnapshot();
 });
 
@@ -72,5 +106,10 @@ it("renders <SteamBanner /> component unchanged", () => {
 
 it("renders <SteamWidget /> component unchanged", () => {
   const { container } = render(<SteamWidget />);
+  expect(container).toMatchSnapshot();
+});
+
+it("renders <Video /> component unchanged", () => {
+  const { container } = render(<Video videoId="8UPMQbm8WkQ" title="Test" />);
   expect(container).toMatchSnapshot();
 });
