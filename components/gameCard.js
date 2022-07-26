@@ -1,34 +1,22 @@
 import Link from "next/link";
+import BuyButton from "./buyButton";
 import Image from "next/image";
 
 export default function GameCard({ imagePath, link, steamStoreId, gameName }) {
   return (
-    <div className="my-5">
+    <div className="flex flex-col m-10">
       <Link href={link}>
         <a
+          className={`w-72 h-72 bg-cover flex flex-col-reverse ${imagePath}`}
           aria-label={`Find out more about ${gameName}`}
-          className={`flex justify-center mx-5 w-64 h-64 bg-cover ${imagePath}`}
-        ></a>
-      </Link>
-      <div className="bg-black text-white h-11 mx-5 p-2 align-middle">
-        <a
-          aria-label={`Buy ${gameName} on Steam`}
-          target="blank"
-          rel="noopener"
-          href={`https://store.steampowered.com/app/${steamStoreId}`}
-          className="text-xl w-full block my-auto underline"
         >
-          <div className="inline-block align-middle mr-2">
-            <Image
-              alt="Steam logo"
-              height="25px"
-              width="25px"
-              src="/steamLogo.png"
-            ></Image>
+          <div className="shadow-black shadow-lg flex items-center justify-center text-base h-6 bg-orange text-black border border-black">
+            <div className="underline">Find out more</div>
           </div>
-          Buy on Steam
         </a>
-      </div>
+      </Link>
+
+      <BuyButton steamStoreId={steamStoreId} gameName={gameName} />
     </div>
   );
 }

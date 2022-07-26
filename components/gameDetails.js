@@ -4,8 +4,8 @@ import GameDetailsSection from "./gameDetailsSection";
 export default function GameDetails() {
   const [selectedGame, setSelectedGame] = useState("showrunner");
 
-  const activeTabStyles = "bg-gray-400";
-  const inactiveTabStyles = "bg-gray-200 text-gray-500";
+  const activeTabStyles = "bg-lightgrey";
+  const inactiveTabStyles = "text-black";
 
   const gameInfo = {
     showrunner: {
@@ -31,32 +31,32 @@ export default function GameDetails() {
 
   return (
     <div>
-      <div className="text-xl mb-5">Game Details</div>
+      <div className="text-2xl mb-5">Game Details</div>
       <div className="mb-20 border border-black">
-        <ul className="flex flex-wrap mx-auto text-center place-items-center my-auto">
+        <ul className="flex flex-wrap text-center place-items-center h-full">
           <li
             onClick={(e) => handleClick("showrunner", e)}
-            className={`w-1/2 text-lg cursor-pointer ${
+            className={`w-1/2 text-xl cursor-pointer h-full ${
               selectedGame === "showrunner"
                 ? activeTabStyles
                 : inactiveTabStyles
             }`}
           >
-            <div className="inline-block">Showrunner</div>
+            <div className="underline h-full">Showrunner</div>
           </li>
           <li
             onClick={(e) => handleClick("thisMerchantLife", e)}
-            className={`w-1/2 text-lg cursor-pointer ${
+            className={`w-1/2 text-xl cursor-pointer h-full ${
               selectedGame === "thisMerchantLife"
                 ? activeTabStyles
                 : inactiveTabStyles
             }`}
           >
-            <div className="inline-block">This Merchant Life</div>
+            <div className="underline">This Merchant Life</div>
           </li>
         </ul>
 
-        <div className="m-5 my-10">
+        <div className="bg-lightgrey">
           <GameDetailsSection
             title="Description"
             content={gameInfo[selectedGame].description}

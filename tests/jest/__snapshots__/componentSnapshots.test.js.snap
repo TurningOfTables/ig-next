@@ -3,43 +3,39 @@
 exports[`renders <ContactUs /> component unchanged 1`] = `
 <div>
   <div
-    class="flex justify-center mt-2"
+    class="sticky bottom-0 flex justify-center h-full"
   >
     <a
-      class="underline flex"
+      class="underline flex items-center"
       href="https://twitter.com/Inexplicable_G"
       rel="noopener"
       target="blank"
     >
-      <div
-        class="mr-2"
+      <span
+        style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
       >
         <span
-          style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+          style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
         >
-          <span
-            style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-          >
-            <img
-              alt=""
-              aria-hidden="true"
-              src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2732%27%20height=%2732%27/%3e"
-              style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-            />
-          </span>
           <img
-            alt="Twitter logo"
-            data-nimg="intrinsic"
-            data-testid="twitter-logo"
-            decoding="async"
-            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            alt=""
+            aria-hidden="true"
+            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2732%27%20height=%2732%27/%3e"
+            style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
           />
-          <noscript />
         </span>
-      </div>
+        <img
+          alt="Twitter logo"
+          data-nimg="intrinsic"
+          data-testid="twitter-logo"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+        />
+        <noscript />
+      </span>
       <div
-        class="text-lg inline"
+        class="text-lg ml-2"
       >
         @Inexplicable_G
       </div>
@@ -219,52 +215,44 @@ exports[`renders <FeatureSection /> reversed component unchanged 1`] = `
 exports[`renders <Footer /> component unchanged 1`] = `
 <div>
   <footer
-    class="bottom-0 h-11 mt-5 bg-black text-white fixed w-full"
+    class="sticky bottom-0 flex justify-center h-11 bg-black text-white"
     data-testid="footer"
   >
-    <div
-      class="flex justify-center mt-2"
+    <a
+      class="underline flex items-center"
+      href="https://twitter.com/Inexplicable_G"
+      rel="noopener"
+      target="blank"
     >
-      <a
-        class="underline flex"
-        href="https://twitter.com/Inexplicable_G"
-        rel="noopener"
-        target="blank"
+      <span
+        style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
       >
-        <div
-          class="mr-2"
+        <span
+          style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
         >
-          <span
-            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-          >
-            <span
-              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-            >
-              <img
-                alt=""
-                aria-hidden="true"
-                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2732%27%20height=%2732%27/%3e"
-                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-              />
-            </span>
-            <img
-              alt="Twitter logo"
-              data-nimg="intrinsic"
-              data-testid="twitter-logo"
-              decoding="async"
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-            />
-            <noscript />
-          </span>
-        </div>
-        <div
-          class="text-lg inline"
-        >
-          @Inexplicable_G
-        </div>
-      </a>
-    </div>
+          <img
+            alt=""
+            aria-hidden="true"
+            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2732%27%20height=%2732%27/%3e"
+            style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+          />
+        </span>
+        <img
+          alt="Twitter logo"
+          data-nimg="intrinsic"
+          data-testid="twitter-logo"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+        />
+        <noscript />
+      </span>
+      <div
+        class="text-lg ml-2"
+      >
+        @Inexplicable_G
+      </div>
+    </a>
   </footer>
 </div>
 `;
@@ -272,52 +260,36 @@ exports[`renders <Footer /> component unchanged 1`] = `
 exports[`renders <GameCard /> component unchanged 1`] = `
 <div>
   <div
-    class="my-5"
+    class="flex flex-col m-10"
   >
     <a
       aria-label="Find out more about undefined"
-      class="flex justify-center mx-5 w-64 h-64 bg-cover bg-[url('/tmlCard.png')]"
+      class="w-72 h-72 bg-cover flex flex-col-reverse bg-[url('/tmlCard.png')]"
       href="/test"
-    />
-    <div
-      class="bg-black text-white h-11 mx-5 p-2 align-middle"
     >
-      <a
-        aria-label="Buy undefined on Steam"
-        class="text-xl w-full block my-auto underline"
-        href="https://store.steampowered.com/app/0"
-        rel="noopener"
-        target="blank"
+      <div
+        class="shadow-black shadow-lg flex items-center justify-center text-base h-6 bg-orange text-black border border-black"
       >
         <div
-          class="inline-block align-middle mr-2"
+          class="underline"
         >
-          <span
-            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-          >
-            <span
-              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-            >
-              <img
-                alt=""
-                aria-hidden="true"
-                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2725%27%20height=%2725%27/%3e"
-                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-              />
-            </span>
-            <img
-              alt="Steam logo"
-              data-nimg="intrinsic"
-              decoding="async"
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-            />
-            <noscript />
-          </span>
+          Find out more
         </div>
+      </div>
+    </a>
+    <a
+      aria-label="Buy undefined on Steam"
+      class="shadow-black mx-auto shadow-lg flex self-center items-center justify-center w-[288px] h-12 bg-orange text-base my-5 border border-black"
+      href="https://store.steampowered.com/app/0"
+      rel="noopener"
+      target="blank"
+    >
+      <div
+        class="underline"
+      >
         Buy on Steam
-      </a>
-    </div>
+      </div>
+    </a>
   </div>
 </div>
 `;
@@ -331,100 +303,68 @@ exports[`renders <GameCards /> component unchanged 1`] = `
       class="flex flex-row flex-wrap max-w-3xl mx-auto justify-center"
     >
       <div
-        class="my-5"
+        class="flex flex-col m-10"
       >
         <a
           aria-label="Find out more about Showrunner"
-          class="flex justify-center mx-5 w-64 h-64 bg-cover bg-[url('/showrunnerCard.png')]"
+          class="w-72 h-72 bg-cover flex flex-col-reverse bg-[url('/showrunnerCard.png')]"
           href="/showrunner"
-        />
-        <div
-          class="bg-black text-white h-11 mx-5 p-2 align-middle"
         >
-          <a
-            aria-label="Buy Showrunner on Steam"
-            class="text-xl w-full block my-auto underline"
-            href="https://store.steampowered.com/app/2058200"
-            rel="noopener"
-            target="blank"
+          <div
+            class="shadow-black shadow-lg flex items-center justify-center text-base h-6 bg-orange text-black border border-black"
           >
             <div
-              class="inline-block align-middle mr-2"
+              class="underline"
             >
-              <span
-                style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-              >
-                <span
-                  style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-                >
-                  <img
-                    alt=""
-                    aria-hidden="true"
-                    src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2725%27%20height=%2725%27/%3e"
-                    style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-                  />
-                </span>
-                <img
-                  alt="Steam logo"
-                  data-nimg="intrinsic"
-                  decoding="async"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-                />
-                <noscript />
-              </span>
+              Find out more
             </div>
+          </div>
+        </a>
+        <a
+          aria-label="Buy Showrunner on Steam"
+          class="shadow-black mx-auto shadow-lg flex self-center items-center justify-center w-[288px] h-12 bg-orange text-base my-5 border border-black"
+          href="https://store.steampowered.com/app/2058200"
+          rel="noopener"
+          target="blank"
+        >
+          <div
+            class="underline"
+          >
             Buy on Steam
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
       <div
-        class="my-5"
+        class="flex flex-col m-10"
       >
         <a
           aria-label="Find out more about This Merchant Life"
-          class="flex justify-center mx-5 w-64 h-64 bg-cover bg-[url('/tmlCard.png')]"
+          class="w-72 h-72 bg-cover flex flex-col-reverse bg-[url('/tmlCard.png')]"
           href="/this-merchant-life"
-        />
-        <div
-          class="bg-black text-white h-11 mx-5 p-2 align-middle"
         >
-          <a
-            aria-label="Buy This Merchant Life on Steam"
-            class="text-xl w-full block my-auto underline"
-            href="https://store.steampowered.com/app/666730"
-            rel="noopener"
-            target="blank"
+          <div
+            class="shadow-black shadow-lg flex items-center justify-center text-base h-6 bg-orange text-black border border-black"
           >
             <div
-              class="inline-block align-middle mr-2"
+              class="underline"
             >
-              <span
-                style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-              >
-                <span
-                  style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-                >
-                  <img
-                    alt=""
-                    aria-hidden="true"
-                    src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2725%27%20height=%2725%27/%3e"
-                    style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-                  />
-                </span>
-                <img
-                  alt="Steam logo"
-                  data-nimg="intrinsic"
-                  decoding="async"
-                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-                />
-                <noscript />
-              </span>
+              Find out more
             </div>
+          </div>
+        </a>
+        <a
+          aria-label="Buy This Merchant Life on Steam"
+          class="shadow-black mx-auto shadow-lg flex self-center items-center justify-center w-[288px] h-12 bg-orange text-base my-5 border border-black"
+          href="https://store.steampowered.com/app/666730"
+          rel="noopener"
+          target="blank"
+        >
+          <div
+            class="underline"
+          >
             Buy on Steam
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
     </div>
   </div>
@@ -435,7 +375,7 @@ exports[`renders <GameDetails /> component unchanged 1`] = `
 <div>
   <div>
     <div
-      class="text-xl mb-5"
+      class="text-2xl mb-5"
     >
       Game Details
     </div>
@@ -443,35 +383,35 @@ exports[`renders <GameDetails /> component unchanged 1`] = `
       class="mb-20 border border-black"
     >
       <ul
-        class="flex flex-wrap mx-auto text-center place-items-center my-auto"
+        class="flex flex-wrap text-center place-items-center h-full"
       >
         <li
-          class="w-1/2 text-lg cursor-pointer bg-gray-400"
+          class="w-1/2 text-xl cursor-pointer h-full bg-lightgrey"
         >
           <div
-            class="inline-block"
+            class="underline h-full"
           >
             Showrunner
           </div>
         </li>
         <li
-          class="w-1/2 text-lg cursor-pointer bg-gray-200 text-gray-500"
+          class="w-1/2 text-xl cursor-pointer h-full text-black"
         >
           <div
-            class="inline-block"
+            class="underline"
           >
             This Merchant Life
           </div>
         </li>
       </ul>
       <div
-        class="m-5 my-10"
+        class="bg-lightgrey"
       >
         <div
-          class="my-10"
+          class="py-6 mx-5"
         >
           <div
-            class="text-lg my-2"
+            class="text-lg mb-2"
           >
             Description
           </div>
@@ -480,10 +420,10 @@ exports[`renders <GameDetails /> component unchanged 1`] = `
           </div>
         </div>
         <div
-          class="my-10"
+          class="py-6 mx-5"
         >
           <div
-            class="text-lg my-2"
+            class="text-lg mb-2"
           >
             Genre
           </div>
@@ -492,10 +432,10 @@ exports[`renders <GameDetails /> component unchanged 1`] = `
           </div>
         </div>
         <div
-          class="my-10"
+          class="py-6 mx-5"
         >
           <div
-            class="text-lg my-2"
+            class="text-lg mb-2"
           >
             Platforms
           </div>
@@ -504,10 +444,10 @@ exports[`renders <GameDetails /> component unchanged 1`] = `
           </div>
         </div>
         <div
-          class="my-10"
+          class="py-6 mx-5"
         >
           <div
-            class="text-lg my-2"
+            class="text-lg mb-2"
           >
             Store
           </div>
@@ -518,33 +458,7 @@ exports[`renders <GameDetails /> component unchanged 1`] = `
               target="blank"
             >
               <div
-                class="inline-block align-middle"
-              >
-                <span
-                  style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-                >
-                  <span
-                    style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-                  >
-                    <img
-                      alt=""
-                      aria-hidden="true"
-                      src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2725%27%20height=%2725%27/%3e"
-                      style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-                    />
-                  </span>
-                  <img
-                    alt="Steam logo"
-                    data-nimg="intrinsic"
-                    decoding="async"
-                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                    style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-                  />
-                  <noscript />
-                </span>
-              </div>
-              <div
-                class="inline-block align-middle ml-2 underline"
+                class="inline-block align-middle underline"
               >
                 Steam
               </div>
@@ -560,10 +474,10 @@ exports[`renders <GameDetails /> component unchanged 1`] = `
 exports[`renders <GameDetailsSection /> component unchanged 1`] = `
 <div>
   <div
-    class="my-10"
+    class="py-6 mx-5"
   >
     <div
-      class="text-lg my-2"
+      class="text-lg mb-2"
     >
       Test
     </div>
@@ -577,10 +491,10 @@ exports[`renders <GameDetailsSection /> component unchanged 1`] = `
 exports[`renders <GameDetailsSection /> store link component unchanged 1`] = `
 <div>
   <div
-    class="my-10"
+    class="py-6 mx-5"
   >
     <div
-      class="text-lg my-2"
+      class="text-lg mb-2"
     >
       Test
     </div>
@@ -591,33 +505,7 @@ exports[`renders <GameDetailsSection /> store link component unchanged 1`] = `
         target="blank"
       >
         <div
-          class="inline-block align-middle"
-        >
-          <span
-            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-          >
-            <span
-              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-            >
-              <img
-                alt=""
-                aria-hidden="true"
-                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2725%27%20height=%2725%27/%3e"
-                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-              />
-            </span>
-            <img
-              alt="Steam logo"
-              data-nimg="intrinsic"
-              decoding="async"
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-            />
-            <noscript />
-          </span>
-        </div>
-        <div
-          class="inline-block align-middle ml-2 underline"
+          class="inline-block align-middle underline"
         >
           Steam
         </div>
@@ -702,7 +590,7 @@ exports[`renders <PresskitSection /> component unchanged 1`] = `
     class="my-10"
   >
     <h2
-      class="text-xl my-5"
+      class="text-2xl my-5"
     >
       Test
     </h2>
@@ -718,40 +606,38 @@ exports[`renders <SharedHead /> component unchanged 1`] = `<div />`;
 exports[`renders <SteamBanner /> component unchanged 1`] = `
 <div>
   <a
-    class="block mx-auto text-center bg-black text-white my-5"
+    class="w-full h-12 bg-orange text-black flex self-center items-center justify-center"
     href="https://store.steampowered.com/app/undefined"
+    rel="noopener"
+    target="blank"
   >
-    <div
-      class="inline-block align-middle underline"
-    >
-       is 
-       on Steam
-    </div>
-    <div
-      class="inline-block align-middle ml-2"
+    <span
+      style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
     >
       <span
-        style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+        style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
       >
-        <span
-          style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-        >
-          <img
-            alt=""
-            aria-hidden="true"
-            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2725%27%20height=%2725%27/%3e"
-            style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-          />
-        </span>
         <img
-          alt="Steam logo"
-          data-nimg="intrinsic"
-          decoding="async"
-          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+          alt=""
+          aria-hidden="true"
+          src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2732%27%20height=%2732%27/%3e"
+          style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
         />
-        <noscript />
       </span>
+      <img
+        alt="Steam logo"
+        data-nimg="intrinsic"
+        decoding="async"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+      />
+      <noscript />
+    </span>
+    <div
+      class="underline ml-2"
+    >
+      See 
+       on Steam
     </div>
   </a>
 </div>
@@ -775,6 +661,11 @@ exports[`renders <Video /> component unchanged 1`] = `
   <div
     class="max-w-lg mt-10 mb-20 mx-auto"
   >
+    <h2
+      class="text-2xl mb-5"
+    >
+      Trailer
+    </h2>
     <div
       class="relative pb-[56.25%] h-0 overflow-hidden"
     >

@@ -1,10 +1,26 @@
-import Link from "next/link";
-import ContactUs from "./contactUs";
+import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bottom-0 h-11 mt-5 bg-black text-white fixed w-full" data-testid="footer">
-      <ContactUs />
+    <footer
+      data-testid="footer"
+      className="sticky bottom-0 flex justify-center h-11 bg-black text-white"
+    >
+      <a
+        className="underline flex items-center"
+        rel="noopener"
+        target="blank"
+        href="https://twitter.com/Inexplicable_G"
+      >
+        <Image
+          alt="Twitter logo"
+          data-testid="twitter-logo"
+          src="/twitterLogo.png"
+          width="32px"
+          height="32px"
+        />
+        <div className="text-lg ml-2">@Inexplicable_G</div>
+      </a>
     </footer>
   );
 }

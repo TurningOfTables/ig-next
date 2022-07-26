@@ -4,21 +4,28 @@ import FeatureSection from "../components/featureSection";
 import Image from "next/image";
 import headerImage from "../public/tmlHeader.png";
 import NavBar from "../components/navBar";
-import SteamBanner from "../components/steamBanner";
-import GameScreenshot from "../components/gameScreenshot";
 import Video from "../components/video";
+import BuyButton from "../components/buyButton";
+import GameScreenshots from "../components/gameScreenshots";
 
 export default function ThisMerchantLife() {
+  const gameInfo = {
+    name: "This Merchant Life",
+    steamStoreId: "666730",
+    videoId: "DEqhV7cZfP0",
+  };
   return (
     <div>
       <SharedHead />
       <NavBar />
 
-      <main>
+      <main className="mx-auto mt-10 text-center subpixel-antialiased">
         <Image
           data-testid="tml-header-image"
           src={headerImage}
           alt="This Merchant Life Title Screen"
+          width="1280"
+          height="459"
         ></Image>
 
         <FeatureSection
@@ -43,27 +50,33 @@ export default function ThisMerchantLife() {
           imgSrc="/tmlCard-4.png"
           reversed
         />
-        <SteamBanner
-          name="This Merchant Life"
-          status="out now"
-          steamStoreId="666730"
+        <BuyButton
+          steamStoreId={gameInfo.steamStoreId}
+          gameName={gameInfo.name}
         />
 
-        <div className="flex flex-wrap mx-auto max-w-5xl justify-center">
-          <GameScreenshot imgSrc="/tmlCard.png" title="Screenshot" />
-          <GameScreenshot imgSrc="/tmlCard.png" title="Screenshot" />
-          <GameScreenshot imgSrc="/tmlCard.png" title="Screenshot" />
-          <GameScreenshot imgSrc="/tmlCard.png" title="Screenshot" />
-          <GameScreenshot imgSrc="/tmlCard.png" title="Screenshot" />
-          <GameScreenshot imgSrc="/tmlCard.png" title="Screenshot" />
-        </div>
-        <SteamBanner
-          name="This Merchant Life"
-          status="out now"
-          steamStoreId="666730"
+        <Video videoId={gameInfo.videoId} title="This Merchant Life Video" />
+
+        <BuyButton
+          steamStoreId={gameInfo.steamStoreId}
+          gameName={gameInfo.name}
         />
 
-        <Video videoId="DEqhV7cZfP0" title="This Merchant Life Trailer" />
+        <GameScreenshots
+          screenshots={[
+            { imgSrc: "/tmlCard.png", title: "Screenshot" },
+            { imgSrc: "/tmlCard.png", title: "Screenshot" },
+            { imgSrc: "/tmlCard.png", title: "Screenshot" },
+            { imgSrc: "/tmlCard.png", title: "Screenshot" },
+            { imgSrc: "/tmlCard.png", title: "Screenshot" },
+            { imgSrc: "/tmlCard.png", title: "Screenshot" },
+          ]}
+        />
+
+        <BuyButton
+          steamStoreId={gameInfo.steamStoreId}
+          gameName={gameInfo.name}
+        />
       </main>
       <Footer />
     </div>

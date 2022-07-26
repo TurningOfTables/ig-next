@@ -4,11 +4,16 @@ import Image from "next/image";
 import FeatureSection from "../components/featureSection";
 import headerImage from "../public/showrunnerHeader.png";
 import NavBar from "../components/navBar";
-import SteamBanner from "../components/steamBanner";
-import GameScreenshot from "../components/gameScreenshot";
 import Video from "../components/video";
+import BuyButton from "../components/buyButton";
+import GameScreenshots from "../components/gameScreenshots";
 
 export default function Showrunner() {
+  const gameInfo = {
+    name: "Showrunner",
+    steamStoreId: "2058200",
+    videoId: "8UPMQbm8WkQ",
+  };
   return (
     <div>
       <SharedHead />
@@ -19,6 +24,8 @@ export default function Showrunner() {
           data-testid="showrunner-header-image"
           src={headerImage}
           alt="Showrunner Logo"
+          width="1280"
+          height="459"
         ></Image>
 
         <FeatureSection
@@ -44,27 +51,30 @@ export default function Showrunner() {
           reversed
         />
 
-        <SteamBanner
-          name="Showrunner"
-          status="out soon"
-          steamStoreId="2058200"
+        <BuyButton
+          steamStoreId={gameInfo.steamStoreId}
+          gameName={gameInfo.name}
         />
+        <Video videoId={gameInfo.videoId} title="Showrunner Video" />
 
-        <div className="flex flex-wrap mx-auto max-w-5xl justify-center">
-          <GameScreenshot imgSrc="/showrunnerCard.png" title="Screenshot" />
-          <GameScreenshot imgSrc="/showrunnerCard.png" title="Screenshot" />
-          <GameScreenshot imgSrc="/showrunnerCard.png" title="Screenshot" />
-          <GameScreenshot imgSrc="/showrunnerCard.png" title="Screenshot" />
-          <GameScreenshot imgSrc="/showrunnerCard.png" title="Screenshot" />
-          <GameScreenshot imgSrc="/showrunnerCard.png" title="Screenshot" />
-        </div>
-
-        <SteamBanner
-          name="Showrunner"
-          status="out soon"
-          steamStoreId="2058200"
+        <BuyButton
+          steamStoreId={gameInfo.steamStoreId}
+          gameName={gameInfo.name}
         />
-        <Video videoId="8UPMQbm8WkQ" title="Showrunner Trailer" />
+        <GameScreenshots
+          screenshots={[
+            { imgSrc: "/showrunnerCard.png", title: "Screenshot" },
+            { imgSrc: "/showrunnerCard.png", title: "Screenshot" },
+            { imgSrc: "/showrunnerCard.png", title: "Screenshot" },
+            { imgSrc: "/showrunnerCard.png", title: "Screenshot" },
+            { imgSrc: "/showrunnerCard.png", title: "Screenshot" },
+            { imgSrc: "/showrunnerCard.png", title: "Screenshot" },
+          ]}
+        />
+        <BuyButton
+          steamStoreId={gameInfo.steamStoreId}
+          gameName={gameInfo.name}
+        />
       </main>
 
       <Footer />
