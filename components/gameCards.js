@@ -2,8 +2,7 @@ import GameCard from "./gameCard";
 
 export default function GameCards() {
   return (
-    <div className="flex flex-col text-4xl mt-5">
-      <div className="flex flex-row flex-wrap max-w-3xl mx-auto justify-center">
+      <div className="flex flex-row flex-wrap justify-center">
         <GameCard
           gameName="Showrunner"
           link="/showrunner"
@@ -17,6 +16,5 @@ export default function GameCards() {
           imagePath="bg-[url('/tmlCard.png')]"
         />
       </div>
-    </div>
   );
 }

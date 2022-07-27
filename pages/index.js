@@ -11,7 +11,7 @@ export default function Home() {
       <SharedHead />
       <NavBar />
 
-      <main className="container mx-auto m-10 pl-10 pr-10 text-center subpixel-antialiased">
+      <main className="m-10 text-center subpixel-antialiased">
         <Image
           data-testid="header-image"
           src={headerImage}
