@@ -268,7 +268,7 @@ exports[`renders <GameCard /> component unchanged 1`] = `
       href="/test"
     >
       <div
-        class="shadow-black shadow-lg flex items-center justify-center text-base h-6 bg-orange text-black border border-black"
+        class="shadow-black shadow-lg flex items-center justify-center text-base h-6 bg-white text-black border border-black"
       >
         <div
           class="underline"
@@ -279,7 +279,7 @@ exports[`renders <GameCard /> component unchanged 1`] = `
     </a>
     <a
       aria-label="undefined on Steam"
-      class="shadow-black mx-auto shadow-lg flex self-center items-center justify-center w-[288px] h-12 bg-orange text-base my-5 border border-black"
+      class="shadow-black mx-auto shadow-lg flex self-center items-center justify-center w-[288px] h-12 undefined text-base my-5 border border-black"
       href="https://store.steampowered.com/app/0"
       rel="noopener"
       target="blank"
@@ -308,7 +308,7 @@ exports[`renders <GameCards /> component unchanged 1`] = `
         href="/showrunner"
       >
         <div
-          class="shadow-black shadow-lg flex items-center justify-center text-base h-6 bg-orange text-black border border-black"
+          class="shadow-black shadow-lg flex items-center justify-center text-base h-6 bg-white text-black border border-black"
         >
           <div
             class="underline"
@@ -319,7 +319,7 @@ exports[`renders <GameCards /> component unchanged 1`] = `
       </a>
       <a
         aria-label="Showrunner on Steam"
-        class="shadow-black mx-auto shadow-lg flex self-center items-center justify-center w-[288px] h-12 bg-orange text-base my-5 border border-black"
+        class="shadow-black mx-auto shadow-lg flex self-center items-center justify-center w-[288px] h-12 undefined text-base my-5 border border-black"
         href="https://store.steampowered.com/app/2058200"
         rel="noopener"
         target="blank"
@@ -341,7 +341,7 @@ exports[`renders <GameCards /> component unchanged 1`] = `
         href="/this-merchant-life"
       >
         <div
-          class="shadow-black shadow-lg flex items-center justify-center text-base h-6 bg-orange text-black border border-black"
+          class="shadow-black shadow-lg flex items-center justify-center text-base h-6 bg-white text-black border border-black"
         >
           <div
             class="underline"
@@ -352,7 +352,7 @@ exports[`renders <GameCards /> component unchanged 1`] = `
       </a>
       <a
         aria-label="This Merchant Life on Steam"
-        class="shadow-black mx-auto shadow-lg flex self-center items-center justify-center w-[288px] h-12 bg-orange text-base my-5 border border-black"
+        class="shadow-black mx-auto shadow-lg flex self-center items-center justify-center w-[288px] h-12 undefined text-base my-5 border border-black"
         href="https://store.steampowered.com/app/666730"
         rel="noopener"
         target="blank"

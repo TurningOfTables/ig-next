@@ -6,13 +6,13 @@ import headerImage from "../public/showrunnerHeader.png";
 import NavBar from "../components/navBar";
 import Video from "../components/video";
 import BuyButton from "../components/buyButton";
-import GameScreenshots from "../components/gameScreenshots";
 
 export default function Showrunner() {
   const gameInfo = {
     name: "Showrunner",
     steamStoreId: "2058200",
     videoId: "8UPMQbm8WkQ",
+    colour: "showrunnerRed",
   };
   return (
     <div>
@@ -26,27 +26,28 @@ export default function Showrunner() {
           alt="Showrunner Logo"
           width="1280"
           height="459"
+          quality="100"
         ></Image>
 
         <FeatureSection
-          title="Ut tincidunt pulvinar"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porta dui diam, eget luctus arcu vehicula id. Integer sed purus nisl. Nulla convallis diam blandit nunc imperdiet, vel pretium turpis hendrerit."
+          title="Craft Scripts"
+          text="Put scripts together scene by scene to maximise your show's ratings"
           imgSrc="/showrunnerCard.png"
         />
         <FeatureSection
-          title="Proin non libero"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed tincidunt diam. Vestibulum scelerisque porttitor felis, et eleifend quam cursus quis. In sed facilisis ante, eu dignissim tellus."
+          title="Create Characters and Cast Actors"
+          text="Discover new actors and cast them in your shows, developing their skills as you go"
           imgSrc="/showrunnerCard.png"
           reversed
         />
         <FeatureSection
-          title="Pellentesque eu dolor"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id sagittis eros, in efficitur ligula. Nulla quis finibus lacus, sit amet lacinia ex. Etiam risus diam, varius eget ipsum egestas, pharetra ultricies urna."
+          title="Manage Staff"
+          text="Find the best staff and crew who will work together and improve their abilities over time"
           imgSrc="/showrunnerCard.png"
         />
         <FeatureSection
-          title="Phasellus ultricies mauris"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lobortis placerat erat ut posuere. Curabitur eu mi sit amet lectus tempor pretium in elementum dui. Phasellus congue dui felis, a tincidunt nisl viverra nec."
+          title="Upgrade Your Studio"
+          text="Earn enough to get better equipment and boost your show's ratings"
           imgSrc="/showrunnerCard.png"
           reversed
         />
@@ -54,26 +55,13 @@ export default function Showrunner() {
         <BuyButton
           steamStoreId={gameInfo.steamStoreId}
           gameName={gameInfo.name}
+          bgColour={`bg-${gameInfo.colour}`}
         />
         <Video videoId={gameInfo.videoId} title="Showrunner Video" />
-
         <BuyButton
           steamStoreId={gameInfo.steamStoreId}
           gameName={gameInfo.name}
-        />
-        <GameScreenshots
-          screenshots={[
-            { imgSrc: "/showrunnerCard.png", title: "Screenshot" },
-            { imgSrc: "/showrunnerCard.png", title: "Screenshot" },
-            { imgSrc: "/showrunnerCard.png", title: "Screenshot" },
-            { imgSrc: "/showrunnerCard.png", title: "Screenshot" },
-            { imgSrc: "/showrunnerCard.png", title: "Screenshot" },
-            { imgSrc: "/showrunnerCard.png", title: "Screenshot" },
-          ]}
-        />
-        <BuyButton
-          steamStoreId={gameInfo.steamStoreId}
-          gameName={gameInfo.name}
+          bgColour={`bg-${gameInfo.colour}`}
         />
       </main>
 

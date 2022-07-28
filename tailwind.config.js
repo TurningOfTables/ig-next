@@ -7,6 +7,8 @@ module.exports = {
   theme: {
     colors: {
       orange: "#f48c0f",
+      tmlGreen: "#549946",
+      showrunnerRed: "#F43737",
       black: "#212121",
       lightgrey: "#c9cecf",
       white: "#ffffff",

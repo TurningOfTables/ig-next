@@ -10,7 +10,7 @@ export default function GameCard({ imagePath, link, steamStoreId, gameName }) {
           className={`w-72 h-72 bg-cover flex flex-col-reverse ${imagePath}`}
           aria-label={`Find out more about ${gameName}`}
         >
-          <div className="shadow-black shadow-lg flex items-center justify-center text-base h-6 bg-orange text-black border border-black">
+          <div className="shadow-black shadow-lg flex items-center justify-center text-base h-6 bg-white text-black border border-black">
             <div className="underline">Find out more</div>
           </div>
         </a>

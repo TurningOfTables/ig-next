@@ -1,18 +1,18 @@
 import SharedHead from "../components/sharedHead";
 import Footer from "../components/footer";
-import FeatureSection from "../components/featureSection";
 import Image from "next/image";
+import FeatureSection from "../components/featureSection";
 import headerImage from "../public/tmlHeader.png";
 import NavBar from "../components/navBar";
 import Video from "../components/video";
 import BuyButton from "../components/buyButton";
-import GameScreenshots from "../components/gameScreenshots";
 
 export default function ThisMerchantLife() {
   const gameInfo = {
     name: "This Merchant Life",
     steamStoreId: "666730",
     videoId: "DEqhV7cZfP0",
+    colour: "tmlGreen",
   };
   return (
     <div>
@@ -25,7 +25,8 @@ export default function ThisMerchantLife() {
           src={headerImage}
           alt="This Merchant Life Title Screen"
           width="1280"
-          height="459"
+          height="576"
+          quality="100"
         ></Image>
 
         <FeatureSection
@@ -53,6 +54,7 @@ export default function ThisMerchantLife() {
         <BuyButton
           steamStoreId={gameInfo.steamStoreId}
           gameName={gameInfo.name}
+          bgColour={`bg-${gameInfo.colour}`}
         />
 
         <Video videoId={gameInfo.videoId} title="This Merchant Life Video" />
@@ -60,22 +62,7 @@ export default function ThisMerchantLife() {
         <BuyButton
           steamStoreId={gameInfo.steamStoreId}
           gameName={gameInfo.name}
-        />
-
-        <GameScreenshots
-          screenshots={[
-            { imgSrc: "/tmlCard.png", title: "Screenshot" },
-            { imgSrc: "/tmlCard.png", title: "Screenshot" },
-            { imgSrc: "/tmlCard.png", title: "Screenshot" },
-            { imgSrc: "/tmlCard.png", title: "Screenshot" },
-            { imgSrc: "/tmlCard.png", title: "Screenshot" },
-            { imgSrc: "/tmlCard.png", title: "Screenshot" },
-          ]}
-        />
-
-        <BuyButton
-          steamStoreId={gameInfo.steamStoreId}
-          gameName={gameInfo.name}
+          bgColour={`bg-${gameInfo.colour}`}
         />
       </main>
       <Footer />
