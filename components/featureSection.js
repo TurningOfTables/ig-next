@@ -14,6 +14,7 @@ export default function FeatureSection(props) {
     <div
       onClick={() => setOpen(true)}
       className={`flex flex-col my-auto cursor-pointer shadow-md shadow-${props.colour}`}
+      style={{ boxShadow: `0 10px 10px -10px ${props.colour}` }}
     >
       <Image
         data-testid={imgDataTestId}
@@ -45,7 +46,10 @@ export default function FeatureSection(props) {
           onClick={() => setOpen(false)}
           className="fixed top-0 left-0 h-full w-full bg-opacity-75 bg-black z-50"
         >
-          <div className="mx-auto mt-32 max-w-5xl">
+          <div
+            className="mx-auto mt-32 max-w-5xl"
+            style={{ boxShadow: `0 10px 10px -10px ${props.colour}` }}
+          >
             <Image
               data-testid={imgDataTestId}
               src={props.imgSrc}
@@ -54,8 +58,8 @@ export default function FeatureSection(props) {
               width={1920}
               height={1080}
             ></Image>
-            <div className="flex flex-row h-5 justify-center bg-white cursor-pointer">
-              <div className="mx-1">
+            <div className="flex h-7 justify-center items-center bg-white cursor-pointer">
+              <div className="flex mx-1">
                 <Image
                   src="/close.png"
                   alt="Close icon"
@@ -63,7 +67,7 @@ export default function FeatureSection(props) {
                   height="16"
                 ></Image>
               </div>
-              <small>Close</small>
+              <small className="text-base">Close</small>
             </div>
           </div>
         </div>

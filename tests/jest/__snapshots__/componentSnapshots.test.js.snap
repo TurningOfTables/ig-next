@@ -65,6 +65,7 @@ exports[`renders <FeatureSection /> component unchanged 1`] = `
     </div>
     <div
       class="flex flex-col my-auto cursor-pointer shadow-md shadow-undefined"
+      style="box-shadow: 0 10px 10px -10px undefined;"
     >
       <span
         style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
@@ -135,6 +136,7 @@ exports[`renders <FeatureSection /> reversed component unchanged 1`] = `
   >
     <div
       class="flex flex-col my-auto cursor-pointer shadow-md shadow-undefined"
+      style="box-shadow: 0 10px 10px -10px undefined;"
     >
       <span
         style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
@@ -268,7 +270,8 @@ exports[`renders <GameCard /> component unchanged 1`] = `
       href="/this-merchant-life"
     >
       <div
-        class="shadow-tmlGreen shadow-lg flex items-center justify-center text-base h-6 bg-white text-black border border-black"
+        class="flex items-center justify-center text-base h-7 bg-white text-black border border-black"
+        style="box-shadow: 0 10px 10px -10px #549946;"
       >
         <div
           class="underline"
@@ -279,11 +282,39 @@ exports[`renders <GameCard /> component unchanged 1`] = `
     </a>
     <a
       aria-label="This Merchant Life on Steam"
-      class="mx-auto shadow-lg flex self-center items-center justify-center w-[288px] h-12 shadow-tmlGreen text-base my-5 border border-black"
+      class="flex mx-auto justify-center items-center w-[288px] h-12 text-base my-5 border border-black"
       href="https://store.steampowered.com/app/666730"
       rel="noopener"
+      style="box-shadow: 0 10px 10px -10px #549946;"
       target="blank"
     >
+      <div
+        class="flex mr-1"
+      >
+        <span
+          style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+        >
+          <span
+            style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+          >
+            <img
+              alt=""
+              aria-hidden="true"
+              src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2732%27%20height=%2732%27/%3e"
+              style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+            />
+          </span>
+          <img
+            alt="Twitter logo"
+            data-nimg="intrinsic"
+            data-testid="twitter-logo"
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+          />
+          <noscript />
+        </span>
+      </div>
       <div
         class="underline"
       >
@@ -309,7 +340,8 @@ exports[`renders <GameCards /> component unchanged 1`] = `
         href="/showrunner"
       >
         <div
-          class="shadow-showrunnerRed shadow-lg flex items-center justify-center text-base h-6 bg-white text-black border border-black"
+          class="flex items-center justify-center text-base h-7 bg-white text-black border border-black"
+          style="box-shadow: 0 10px 10px -10px #F43737;"
         >
           <div
             class="underline"
@@ -320,11 +352,39 @@ exports[`renders <GameCards /> component unchanged 1`] = `
       </a>
       <a
         aria-label="Showrunner on Steam"
-        class="mx-auto shadow-lg flex self-center items-center justify-center w-[288px] h-12 shadow-showrunnerRed text-base my-5 border border-black"
+        class="flex mx-auto justify-center items-center w-[288px] h-12 text-base my-5 border border-black"
         href="https://store.steampowered.com/app/2058200"
         rel="noopener"
+        style="box-shadow: 0 10px 10px -10px #F43737;"
         target="blank"
       >
+        <div
+          class="flex mr-1"
+        >
+          <span
+            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+          >
+            <span
+              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2732%27%20height=%2732%27/%3e"
+                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+              />
+            </span>
+            <img
+              alt="Twitter logo"
+              data-nimg="intrinsic"
+              data-testid="twitter-logo"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
+          </span>
+        </div>
         <div
           class="underline"
         >
@@ -342,7 +402,8 @@ exports[`renders <GameCards /> component unchanged 1`] = `
         href="/this-merchant-life"
       >
         <div
-          class="shadow-tmlGreen shadow-lg flex items-center justify-center text-base h-6 bg-white text-black border border-black"
+          class="flex items-center justify-center text-base h-7 bg-white text-black border border-black"
+          style="box-shadow: 0 10px 10px -10px #549946;"
         >
           <div
             class="underline"
@@ -353,11 +414,39 @@ exports[`renders <GameCards /> component unchanged 1`] = `
       </a>
       <a
         aria-label="This Merchant Life on Steam"
-        class="mx-auto shadow-lg flex self-center items-center justify-center w-[288px] h-12 shadow-tmlGreen text-base my-5 border border-black"
+        class="flex mx-auto justify-center items-center w-[288px] h-12 text-base my-5 border border-black"
         href="https://store.steampowered.com/app/666730"
         rel="noopener"
+        style="box-shadow: 0 10px 10px -10px #549946;"
         target="blank"
       >
+        <div
+          class="flex mr-1"
+        >
+          <span
+            style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+          >
+            <span
+              style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2732%27%20height=%2732%27/%3e"
+                style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+              />
+            </span>
+            <img
+              alt="Twitter logo"
+              data-nimg="intrinsic"
+              data-testid="twitter-logo"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+            <noscript />
+          </span>
+        </div>
         <div
           class="underline"
         >
@@ -652,7 +741,7 @@ exports[`renders <SteamWidget /> component unchanged 1`] = `
 exports[`renders <Video /> component unchanged 1`] = `
 <div>
   <div
-    class="max-w-2xl mt-10 mb-20 mx-auto shadow-lg shadow-undefined"
+    class="max-w-2xl mt-10 mb-20 mx-auto"
   >
     <h2
       class="text-2xl mb-5"
@@ -661,6 +750,7 @@ exports[`renders <Video /> component unchanged 1`] = `
     </h2>
     <div
       class="relative pb-[56.25%] h-0 overflow-hidden"
+      style="box-shadow: 0 10px 10px -10px undefined;"
     >
       <iframe
         allow="encrypted-media"
