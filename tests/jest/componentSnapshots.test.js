@@ -1,4 +1,5 @@
 import { render } from "@testing-library/react";
+import { GameConfig } from "../../gameConfig/config";
 import GameCards from "../../components/gameCards";
 import SharedHead from "../../components/sharedHead";
 import Footer from "../../components/footer";
@@ -7,7 +8,6 @@ import GameCard from "../../components/gameCard";
 import SteamWidget from "../../components/steamWidget";
 import SteamBanner from "../../components/steamBanner";
 import GameScreenshot from "../../components/gameScreenshot";
-import NavBar from "../../components/navBar";
 import ContactUs from "../../components/contactUs";
 import GameDetails from "../../components/gameDetails";
 import GameDetailsSection from "../../components/gameDetailsSection";
@@ -50,8 +50,7 @@ it("renders <Footer /> component unchanged", () => {
 it("renders <GameCard /> component unchanged", () => {
   const { container } = render(
     <GameCard
-      link="/test"
-      steamStoreId="0"
+      gameConfig={GameConfig.thisMerchantLife}
       imagePath="bg-[url('/tmlCard.png')]"
     />
   );

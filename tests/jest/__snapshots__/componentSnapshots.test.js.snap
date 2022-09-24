@@ -64,7 +64,7 @@ exports[`renders <FeatureSection /> component unchanged 1`] = `
       </p>
     </div>
     <div
-      class="flex flex-col my-auto cursor-pointer"
+      class="flex flex-col my-auto cursor-pointer shadow-md shadow-undefined"
     >
       <span
         style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
@@ -75,7 +75,7 @@ exports[`renders <FeatureSection /> component unchanged 1`] = `
           <img
             alt=""
             aria-hidden="true"
-            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27270%27%20height=%27270%27/%3e"
+            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27480%27%20height=%27270%27/%3e"
             style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
           />
         </span>
@@ -134,7 +134,7 @@ exports[`renders <FeatureSection /> reversed component unchanged 1`] = `
     class="flex-wrap-reverse flex m-10 justify-center"
   >
     <div
-      class="flex flex-col my-auto cursor-pointer"
+      class="flex flex-col my-auto cursor-pointer shadow-md shadow-undefined"
     >
       <span
         style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
@@ -145,7 +145,7 @@ exports[`renders <FeatureSection /> reversed component unchanged 1`] = `
           <img
             alt=""
             aria-hidden="true"
-            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27270%27%20height=%27270%27/%3e"
+            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27480%27%20height=%27270%27/%3e"
             style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
           />
         </span>
@@ -215,7 +215,7 @@ exports[`renders <FeatureSection /> reversed component unchanged 1`] = `
 exports[`renders <Footer /> component unchanged 1`] = `
 <div>
   <footer
-    class="sticky bottom-0 flex justify-center h-11 bg-black text-white"
+    class="mt-auto w-full flex justify-center h-11 bg-black text-white"
     data-testid="footer"
   >
     <a
@@ -263,12 +263,12 @@ exports[`renders <GameCard /> component unchanged 1`] = `
     class="flex flex-col m-10"
   >
     <a
-      aria-label="Find out more about undefined"
+      aria-label="Find out more about This Merchant Life"
       class="w-72 h-72 bg-cover flex flex-col-reverse bg-[url('/tmlCard.png')]"
-      href="/test"
+      href="/this-merchant-life"
     >
       <div
-        class="shadow-black shadow-lg flex items-center justify-center text-base h-6 bg-white text-black border border-black"
+        class="shadow-tmlGreen shadow-lg flex items-center justify-center text-base h-6 bg-white text-black border border-black"
       >
         <div
           class="underline"
@@ -278,15 +278,16 @@ exports[`renders <GameCard /> component unchanged 1`] = `
       </div>
     </a>
     <a
-      aria-label="undefined on Steam"
-      class="shadow-black mx-auto shadow-lg flex self-center items-center justify-center w-[288px] h-12 undefined text-base my-5 border border-black"
-      href="https://store.steampowered.com/app/0"
+      aria-label="This Merchant Life on Steam"
+      class="mx-auto shadow-lg flex self-center items-center justify-center w-[288px] h-12 shadow-tmlGreen text-base my-5 border border-black"
+      href="https://store.steampowered.com/app/666730"
       rel="noopener"
       target="blank"
     >
       <div
         class="underline"
       >
+        This Merchant Life
          on Steam
       </div>
     </a>
@@ -308,7 +309,7 @@ exports[`renders <GameCards /> component unchanged 1`] = `
         href="/showrunner"
       >
         <div
-          class="shadow-black shadow-lg flex items-center justify-center text-base h-6 bg-white text-black border border-black"
+          class="shadow-showrunnerRed shadow-lg flex items-center justify-center text-base h-6 bg-white text-black border border-black"
         >
           <div
             class="underline"
@@ -319,7 +320,7 @@ exports[`renders <GameCards /> component unchanged 1`] = `
       </a>
       <a
         aria-label="Showrunner on Steam"
-        class="shadow-black mx-auto shadow-lg flex self-center items-center justify-center w-[288px] h-12 undefined text-base my-5 border border-black"
+        class="mx-auto shadow-lg flex self-center items-center justify-center w-[288px] h-12 shadow-showrunnerRed text-base my-5 border border-black"
         href="https://store.steampowered.com/app/2058200"
         rel="noopener"
         target="blank"
@@ -341,7 +342,7 @@ exports[`renders <GameCards /> component unchanged 1`] = `
         href="/this-merchant-life"
       >
         <div
-          class="shadow-black shadow-lg flex items-center justify-center text-base h-6 bg-white text-black border border-black"
+          class="shadow-tmlGreen shadow-lg flex items-center justify-center text-base h-6 bg-white text-black border border-black"
         >
           <div
             class="underline"
@@ -352,7 +353,7 @@ exports[`renders <GameCards /> component unchanged 1`] = `
       </a>
       <a
         aria-label="This Merchant Life on Steam"
-        class="shadow-black mx-auto shadow-lg flex self-center items-center justify-center w-[288px] h-12 undefined text-base my-5 border border-black"
+        class="mx-auto shadow-lg flex self-center items-center justify-center w-[288px] h-12 shadow-tmlGreen text-base my-5 border border-black"
         href="https://store.steampowered.com/app/666730"
         rel="noopener"
         target="blank"
@@ -381,30 +382,24 @@ exports[`renders <GameDetails /> component unchanged 1`] = `
       class="mb-20 border border-black"
     >
       <ul
-        class="flex flex-wrap text-center place-items-center h-full"
+        class="flex flex-wrap text-center place-items-center h-full border-b"
       >
         <li
-          class="w-1/2 text-xl cursor-pointer h-full bg-lightgrey"
+          class="w-1/2 text-xl cursor-pointer h-full text-white bg-black"
         >
-          <div
-            class="underline h-full"
-          >
+          <div>
             Showrunner
           </div>
         </li>
         <li
-          class="w-1/2 text-xl cursor-pointer h-full text-black"
+          class="w-1/2 text-xl cursor-pointer h-full text-black bg-white"
         >
-          <div
-            class="underline"
-          >
+          <div>
             This Merchant Life
           </div>
         </li>
       </ul>
-      <div
-        class="bg-lightgrey"
-      >
+      <div>
         <div
           class="py-6 mx-5"
         >
@@ -657,7 +652,7 @@ exports[`renders <SteamWidget /> component unchanged 1`] = `
 exports[`renders <Video /> component unchanged 1`] = `
 <div>
   <div
-    class="max-w-2xl mt-10 mb-20 mx-auto"
+    class="max-w-2xl mt-10 mb-20 mx-auto shadow-lg shadow-undefined"
   >
     <h2
       class="text-2xl mb-5"
