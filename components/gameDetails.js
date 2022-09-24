@@ -1,28 +1,12 @@
 import { useState } from "react";
 import GameDetailsSection from "./gameDetailsSection";
+import { GameConfig } from "../gameConfig/config";
 
 export default function GameDetails() {
   const [selectedGame, setSelectedGame] = useState("showrunner");
 
   const activeTabStyles = "text-white bg-black";
   const inactiveTabStyles = "text-black bg-white";
-
-  const gameInfo = {
-    showrunner: {
-      description:
-        "Create and run your own TV show! An isometric management game where you craft scripts, populate your world with characters and cast actors to play them. Hire and manage staff, develop your studio and gain a dedicated following.",
-      genre: "Simulation, Strategy, Management, Singleplayer",
-      platforms: "PC - Steam",
-      storeId: "2058200",
-    },
-    thisMerchantLife: {
-      description:
-        "A trading strategy game set in the troubled medieval kingdom of Peregrine. Turn a rickety wooden cart, two horses and a few coins into a thriving entrepreneurial triumph!",
-      genre: "Strategy, RPG, Trading, Medieval",
-      platforms: "PC - Steam",
-      storeId: "666730",
-    },
-  };
 
   function handleClick(game, e) {
     e.preventDefault();
@@ -42,7 +26,7 @@ export default function GameDetails() {
                 : inactiveTabStyles
             }`}
           >
-            <div>Showrunner</div>
+            <div>{GameConfig.showrunner.name}</div>
           </li>
           <li
             onClick={(e) => handleClick("thisMerchantLife", e)}
@@ -52,26 +36,26 @@ export default function GameDetails() {
                 : inactiveTabStyles
             }`}
           >
-            <div>This Merchant Life</div>
+            <div>{GameConfig.thisMerchantLife.name}</div>
           </li>
         </ul>
 
         <div>
           <GameDetailsSection
             title="Description"
-            content={gameInfo[selectedGame].description}
+            content={GameConfig[selectedGame].description}
           />
           <GameDetailsSection
             title="Genre"
-            content={gameInfo[selectedGame].genre}
+            content={GameConfig[selectedGame].genre}
           />
           <GameDetailsSection
             title="Platforms"
-            content={gameInfo[selectedGame].platforms}
+            content={GameConfig[selectedGame].platforms}
           />
           <GameDetailsSection
             title="Store"
-            content={gameInfo[selectedGame].storeId}
+            content={GameConfig[selectedGame].steamStoreId}
             storeLink
           />
         </div>

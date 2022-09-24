@@ -50,7 +50,7 @@ export default function NavBar() {
                 : inactiveLinkStyles
             }
           >
-            Presskit
+            Press Kit
           </a>
         </Link>
       </div>

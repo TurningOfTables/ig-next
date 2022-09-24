@@ -1,6 +1,9 @@
 export const GameConfig = {
   thisMerchantLife: {
     name: "This Merchant Life",
+    description: "A trading strategy game set in the troubled medieval kingdom of Peregrine. Turn a rickety wooden cart, two horses and a few coins into a thriving entrepreneurial triumph!",
+    genre: "Strategy, RPG, Trading, Medieval",
+    platforms: "PC - Steam",
     internalPage: "/this-merchant-life",
     steamStoreId: "666730",
     defaultCardImage: "/tmlCard.png",
@@ -10,6 +13,9 @@ export const GameConfig = {
   },
   showrunner: {
     name: "Showrunner",
+    description: "Create and run your own TV show! An isometric management game where you craft scripts, populate your world with characters and cast actors to play them. Hire and manage staff, develop your studio and gain a dedicated following.",
+    genre: "Simulation, Strategy, Management, Singleplayer",
+    platforms: "PC - Steam",
     internalPage: "/showrunner",
     steamStoreId: "2058200",
     defaultCardImage: "/showrunnerCard.png",
