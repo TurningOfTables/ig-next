@@ -15,7 +15,7 @@ export default function Showrunner() {
     colour: "showrunnerRed",
   };
   return (
-    <div>
+    <div className="flex flex-col">
       <SharedHead />
       <NavBar />
 
@@ -31,37 +31,36 @@ export default function Showrunner() {
 
         <FeatureSection
           title="Craft Scripts"
-          text="Put scripts together scene by scene to maximise your show's ratings"
-          imgSrc="/showrunnerCard.png"
+          text="Play scene cards to create the story outline for each episode. Balance card costs, rewards and powerful combinations to define award winning storylines for your show!"
+          imgSrc="/showrunnerScriptCard.png"
+          colour={gameInfo.colour}
         />
         <FeatureSection
           title="Create Characters and Cast Actors"
-          text="Discover new actors and cast them in your shows, developing their skills as you go"
-          imgSrc="/showrunnerCard.png"
+          text="Use your imagination to make everyone's soon-to-be favourite new characters! Pick an archetype to start, like Hero, Underdog or Joker, then cast an actor who fits the bill. Customise their appearance then develop them over time with character traits."
+          imgSrc="/showrunnerCharacterCard.png"
           reversed
+          colour={gameInfo.colour}
         />
         <FeatureSection
           title="Manage Staff"
-          text="Find the best staff and crew who will work together and improve their abilities over time"
-          imgSrc="/showrunnerCard.png"
+          text="Keep everyone happy both in front of and behind the camera! Hire and fire actors, directors, editors, writers and crew, all with varying abilities, personalities and specialisms. Rotate and rest staff to manage their energy and keep everyone working at their best."
+          imgSrc="/showrunnerStaffCard.png"
+          colour={gameInfo.colour}
         />
         <FeatureSection
           title="Upgrade Your Studio"
-          text="Earn enough to get better equipment and boost your show's ratings"
-          imgSrc="/showrunnerCard.png"
+          text="Buy new items and furniture to improve your studio and help your staff do an even better job. Over time increase your studio's reputation, expand with new rooms and equipment options and eventually move into larger and more prestigious facilities."
+          imgSrc="/showrunnerStudioCard.png"
           reversed
+          colour={gameInfo.colour}
         />
 
+        <Video videoId={gameInfo.videoId} title="Showrunner Video" colour={gameInfo.colour} />
         <BuyButton
           steamStoreId={gameInfo.steamStoreId}
           gameName={gameInfo.name}
-          bgColour={`bg-${gameInfo.colour}`}
-        />
-        <Video videoId={gameInfo.videoId} title="Showrunner Video" />
-        <BuyButton
-          steamStoreId={gameInfo.steamStoreId}
-          gameName={gameInfo.name}
-          bgColour={`bg-${gameInfo.colour}`}
+          bgColour={gameInfo.colour}
         />
       </main>
 

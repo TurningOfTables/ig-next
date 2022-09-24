@@ -1,6 +1,6 @@
-export default function Video({ videoId, title }) {
+export default function Video({ videoId, title, colour }) {
   return (
-    <div className="max-w-2xl mt-10 mb-20 mx-auto">
+    <div className={`max-w-2xl mt-10 mb-20 mx-auto shadow-lg shadow-${colour}`}>
       <h2 className="text-2xl mb-5">Trailer</h2>
       <div className="relative pb-[56.25%] h-0 overflow-hidden">
         <iframe

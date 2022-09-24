@@ -13,13 +13,13 @@ export default function FeatureSection(props) {
   const imageSection = (
     <div
       onClick={() => setOpen(true)}
-      className="flex flex-col my-auto cursor-pointer"
+      className={`flex flex-col my-auto cursor-pointer shadow-md shadow-${props.colour}`}
     >
       <Image
         data-testid={imgDataTestId}
         src={props.imgSrc}
         alt={imgAlt}
-        width="270"
+        width="480"
         height="270"
       ></Image>
       <div className="flex flex-row mx-auto mt-2">
@@ -45,15 +45,26 @@ export default function FeatureSection(props) {
           onClick={() => setOpen(false)}
           className="fixed top-0 left-0 h-full w-full bg-opacity-75 bg-black z-50"
         >
-          <div className="mx-auto max-w-lg max-h-lg top-2/4 translate-y-2/4">
+          <div className="mx-auto mt-32 max-w-5xl">
             <Image
               data-testid={imgDataTestId}
               src={props.imgSrc}
               alt={imgAlt}
               layout="responsive"
-              height="500"
-              width="500"
+              width={1920}
+              height={1080}
             ></Image>
+            <div className="flex flex-row h-5 justify-center bg-white cursor-pointer">
+              <div className="mx-1">
+                <Image
+                  src="/close.png"
+                  alt="Close icon"
+                  width="16"
+                  height="16"
+                ></Image>
+              </div>
+              <small>Close</small>
+            </div>
           </div>
         </div>
       )}

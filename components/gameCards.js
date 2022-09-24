@@ -1,18 +1,15 @@
 import GameCard from "./gameCard";
+import { GameConfig } from "../gameConfig/config";
 
 export default function GameCards() {
   return (
       <div className="flex flex-row flex-wrap justify-center">
         <GameCard
-          gameName="Showrunner"
-          link="/showrunner"
-          steamStoreId="2058200"
+          gameConfig={GameConfig.showrunner}
           imagePath="bg-[url('/showrunnerCard.png')]"
         />
         <GameCard
-          gameName="This Merchant Life"
-          link="/this-merchant-life"
-          steamStoreId="666730"
+          gameConfig={GameConfig.thisMerchantLife}
           imagePath="bg-[url('/tmlCard.png')]"
         />
       </div>

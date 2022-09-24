@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer
       data-testid="footer"
-      className="sticky bottom-0 flex justify-center h-11 bg-black text-white"
+      className="mt-auto w-full flex justify-center h-11 bg-black text-white"
     >
       <a
         className="underline flex items-center"

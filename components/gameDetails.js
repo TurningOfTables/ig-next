@@ -4,8 +4,8 @@ import GameDetailsSection from "./gameDetailsSection";
 export default function GameDetails() {
   const [selectedGame, setSelectedGame] = useState("showrunner");
 
-  const activeTabStyles = "bg-lightgrey";
-  const inactiveTabStyles = "text-black";
+  const activeTabStyles = "text-white bg-black";
+  const inactiveTabStyles = "text-black bg-white";
 
   const gameInfo = {
     showrunner: {
@@ -33,7 +33,7 @@ export default function GameDetails() {
     <div>
       <div className="text-2xl mb-5">Game Details</div>
       <div className="mb-20 border border-black">
-        <ul className="flex flex-wrap text-center place-items-center h-full">
+        <ul className="flex flex-wrap text-center place-items-center h-full border-b">
           <li
             onClick={(e) => handleClick("showrunner", e)}
             className={`w-1/2 text-xl cursor-pointer h-full ${
@@ -42,7 +42,7 @@ export default function GameDetails() {
                 : inactiveTabStyles
             }`}
           >
-            <div className="underline h-full">Showrunner</div>
+            <div>Showrunner</div>
           </li>
           <li
             onClick={(e) => handleClick("thisMerchantLife", e)}
@@ -52,11 +52,11 @@ export default function GameDetails() {
                 : inactiveTabStyles
             }`}
           >
-            <div className="underline">This Merchant Life</div>
+            <div>This Merchant Life</div>
           </li>
         </ul>
 
-        <div className="bg-lightgrey">
+        <div>
           <GameDetailsSection
             title="Description"
             content={gameInfo[selectedGame].description}
