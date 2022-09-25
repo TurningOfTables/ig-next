@@ -1,12 +1,13 @@
 import Head from "next/head";
+import { CompanyConfig } from "../siteConfig/companyConfig";
 
 export default function SharedHead() {
   return (
     <Head>
-      <title>Inexplicable Games</title>
+      <title>{CompanyConfig.name}</title>
       <meta
         name="description"
-        content="A one man games company based in the UK, creator of This Merchant Life and Showrunner. "
+        content={CompanyConfig.metaDescription}
       />
 
       <link
@@ -30,6 +31,10 @@ export default function SharedHead() {
       <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
       <meta name="msapplication-TileColor" content="#da532c" />
       <meta name="theme-color" content="#ffffff" />
+      <link rel="prefetch" href="/this-merchant-life" as="document"/>
+      <link rel="prefetch" href="/showrunner" as="document"/>
+      <link rel="prefetch" href="/presskit" as="document"/>
+      <link rel="prefetch" href="/" as="document"/>
     </Head>
   );
 }

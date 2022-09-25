@@ -1,5 +1,5 @@
 import GameCard from "./gameCard";
-import { GameConfig } from "../gameConfig/config";
+import { GameConfig } from "../siteConfig/gameConfig";
 
 export default function GameCards() {
   return (

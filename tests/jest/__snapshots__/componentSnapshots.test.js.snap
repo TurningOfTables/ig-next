@@ -282,7 +282,7 @@ exports[`renders <GameCard /> component unchanged 1`] = `
     </a>
     <a
       aria-label="This Merchant Life on Steam"
-      class="flex mx-auto justify-center items-center w-[288px] h-12 text-base my-5 border border-black"
+      class="flex mx-auto justify-center items-center w-[288px] h-12 text-base my-10 border border-black"
       href="https://store.steampowered.com/app/666730"
       rel="noopener"
       style="box-shadow: 0 10px 10px -10px #549946;"
@@ -352,7 +352,7 @@ exports[`renders <GameCards /> component unchanged 1`] = `
       </a>
       <a
         aria-label="Showrunner on Steam"
-        class="flex mx-auto justify-center items-center w-[288px] h-12 text-base my-5 border border-black"
+        class="flex mx-auto justify-center items-center w-[288px] h-12 text-base my-10 border border-black"
         href="https://store.steampowered.com/app/2058200"
         rel="noopener"
         style="box-shadow: 0 10px 10px -10px #F43737;"
@@ -414,7 +414,7 @@ exports[`renders <GameCards /> component unchanged 1`] = `
       </a>
       <a
         aria-label="This Merchant Life on Steam"
-        class="flex mx-auto justify-center items-center w-[288px] h-12 text-base my-5 border border-black"
+        class="flex mx-auto justify-center items-center w-[288px] h-12 text-base my-10 border border-black"
         href="https://store.steampowered.com/app/666730"
         rel="noopener"
         style="box-shadow: 0 10px 10px -10px #549946;"
@@ -741,7 +741,7 @@ exports[`renders <SteamWidget /> component unchanged 1`] = `
 exports[`renders <Video /> component unchanged 1`] = `
 <div>
   <div
-    class="max-w-2xl mt-10 mb-20 mx-auto"
+    class="max-w-2xl mt-10 mb-12 mx-auto"
   >
     <h2
       class="text-2xl mb-5"

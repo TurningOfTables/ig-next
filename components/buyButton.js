@@ -7,7 +7,7 @@ export default function BuyButton({ steamStoreId, name, themeColourCode }) {
       target="blank"
       rel="noopener"
       href={`https://store.steampowered.com/app/${steamStoreId}`}
-      className={`flex mx-auto justify-center items-center w-[288px] h-12 text-base my-5 border border-black`}
+      className={`flex mx-auto justify-center items-center w-[288px] h-12 text-base my-10 border border-black`}
       style={{ boxShadow: `0 10px 10px -10px ${themeColourCode}` }}
     >
       <div className="flex mr-1">

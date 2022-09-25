@@ -1,5 +1,5 @@
 import { render } from "@testing-library/react";
-import { GameConfig } from "../../gameConfig/config";
+import { GameConfig } from "../../siteConfig/gameConfig";
 import GameCards from "../../components/gameCards";
 import SharedHead from "../../components/sharedHead";
 import Footer from "../../components/footer";

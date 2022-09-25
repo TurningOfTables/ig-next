@@ -1,6 +1,6 @@
 import { useState } from "react";
 import GameDetailsSection from "./gameDetailsSection";
-import { GameConfig } from "../gameConfig/config";
+import { GameConfig } from "../siteConfig/gameConfig";
 
 export default function GameDetails() {
   const [selectedGame, setSelectedGame] = useState("showrunner");
@@ -20,21 +20,19 @@ export default function GameDetails() {
         <ul className="flex flex-wrap text-center place-items-center h-full border-b">
           <li
             onClick={(e) => handleClick("showrunner", e)}
-            className={`w-1/2 text-xl cursor-pointer h-full ${
-              selectedGame === "showrunner"
+            className={`w-1/2 text-xl cursor-pointer h-full ${selectedGame === "showrunner"
                 ? activeTabStyles
                 : inactiveTabStyles
-            }`}
+              }`}
           >
             <div>{GameConfig.showrunner.name}</div>
           </li>
           <li
             onClick={(e) => handleClick("thisMerchantLife", e)}
-            className={`w-1/2 text-xl cursor-pointer h-full ${
-              selectedGame === "thisMerchantLife"
+            className={`w-1/2 text-xl cursor-pointer h-full ${selectedGame === "thisMerchantLife"
                 ? activeTabStyles
                 : inactiveTabStyles
-            }`}
+              }`}
           >
             <div>{GameConfig.thisMerchantLife.name}</div>
           </li>
