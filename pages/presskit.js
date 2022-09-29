@@ -12,33 +12,26 @@ export default function Presskit() {
       <SharedHead />
       <NavBar />
 
-      <main className="container max-w-4xl mx-auto mt-10 text-left subpixel-antialiased">
-        <h1 className="text-3xl mt-32 mb-10">Press Kit</h1>
+      <main className="container mx-auto max-w-4xl mt-10 text-left subpixel-antialiased">
+        <div className="mx-5">
+          <h1 className="text-3xl mb-10">Press Kit</h1>
+          <PresskitSection
+            title="About the Developer"
+            content={CompanyConfig.longDescription}
+          />
+          <EmailSection content={CompanyConfig.email} />
+          <PresskitSection
+            title="Twitter"
+            content={CompanyConfig.twitter}
+          />
+          <PresskitSection
+            title="Website"
+            content={CompanyConfig.website}
+          />
+          <GameDetails />
+        </div>
 
-
-
-        <PresskitSection
-          title="About the Developer"
-          content={CompanyConfig.longDescription}
-        />
-
-
-
-        <EmailSection content={CompanyConfig.email} />
-
-        <PresskitSection
-          title="Twitter"
-          content={CompanyConfig.twitter}
-        />
-
-        <PresskitSection
-          title="Website"
-          content={CompanyConfig.website}
-        />
-
-        <GameDetails />
       </main>
-
       <Footer />
     </div>
   );
