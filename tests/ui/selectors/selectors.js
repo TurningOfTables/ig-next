@@ -1,6 +1,15 @@
-exports.Selectors = {
+export const Selectors = {
   HEADER_IMAGE: "img[data-testid=header-image]",
   INTRO_TEXT: "p[data-testid=intro-text-primary]",
   INTRO_TEXT_QUOTE: "p[data-testid=intro-text-secondary]",
+  GAME_CARD_SHOWRUNNER: "[data-testid=game-card-Showrunner]",
+  BUY_NOW_SHOWRUNNER: "[data-testid=buy-button-Showrunner]",
+  GAME_CARD_THIS_MERCHANT_LIFE: "[data-testid='game-card-This Merchant Life']",
+  BUY_NOW_THIS_MERCHANT_LIFE: "[data-testid='buy-button-This Merchant Life']",
+  NAVBAR: "[data-testid=navbar]",
+  NAVBAR_HOME: "[data-testid=navbar-link-Home]",
+  NAVBAR_SHOWRUNNER: "[data-testid=navbar-link-Showrunner]",
+  NAVBAR_THIS_MERCHANT_LIFE: "[data-testid='navbar-link-This Merchant Life']",
+  NAVBAR_PRESS_KIT: "[data-testid='navbar-link-Press Kit']",
   FOOTER: "footer[data-testid=footer]",
 };

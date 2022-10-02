@@ -2,7 +2,7 @@ import BuyButton from "./buyButton";
 
 export default function GameCard({ gameConfig, imagePath }) {
   return (
-    <div className="flex flex-col m-10">
+    <div className="flex flex-col m-10" data-testid={`game-card-${gameConfig.name}`}>
       <a href={gameConfig.internalPage}
         className={`w-72 h-72 bg-cover flex flex-col-reverse ${imagePath}`}
         aria-label={`Find out more about ${gameConfig.name}`}

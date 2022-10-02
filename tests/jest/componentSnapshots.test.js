@@ -1,23 +1,32 @@
 import { render } from "@testing-library/react";
 import { GameConfig } from "../../siteConfig/gameConfig";
+import BuyButton from "../../components/buyButton";
+import EmailSection from "../../components/emailSection";
 import GameCards from "../../components/gameCards";
 import SharedHead from "../../components/sharedHead";
 import Footer from "../../components/footer";
 import FeatureSection from "../../components/featureSection";
 import GameCard from "../../components/gameCard";
-import SteamWidget from "../../components/steamWidget";
-import SteamBanner from "../../components/steamBanner";
-import GameScreenshot from "../../components/gameScreenshot";
-import ContactUs from "../../components/contactUs";
 import GameDetails from "../../components/gameDetails";
 import GameDetailsSection from "../../components/gameDetailsSection";
 import PresskitSection from "../../components/presskitSection";
+import NavBar from "../../components/navBar";
 import Video from "../../components/video";
 
-it("renders <ContactUs /> component unchanged", () => {
-  const { container } = render(<ContactUs />);
+it("renders <BuyButton /> component unchanged", () => {
+  const { container } = render(
+    <BuyButton steamStoreId="1234" name="blah" themeColourCode="#22959" />
+  )
   expect(container).toMatchSnapshot();
-});
+})
+
+it("renders <EmailSection /> component unchanged", () => {
+  process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY = "foo"
+  const { container } = render(
+    <EmailSection />
+  )
+  expect(container).toMatchSnapshot();
+})
 
 it("renders <FeatureSection /> component unchanged", () => {
   const { container } = render(
@@ -81,12 +90,12 @@ it("renders <GameDetailsSection /> store link component unchanged", () => {
   expect(container).toMatchSnapshot();
 });
 
-it("renders <GameScreenshot /> component unchanged", () => {
+it("renders <NavBar /> component unchanged", () => {
   const { container } = render(
-    <GameScreenshot title="Test" imgSrc="/test.png" />
-  );
+    <NavBar />
+  )
   expect(container).toMatchSnapshot();
-});
+})
 
 it("renders <PresskitSection /> component unchanged", () => {
   const { container } = render(<PresskitSection title="Test" content="Test" />);
@@ -95,16 +104,6 @@ it("renders <PresskitSection /> component unchanged", () => {
 
 it("renders <SharedHead /> component unchanged", () => {
   const { container } = render(<SharedHead />);
-  expect(container).toMatchSnapshot();
-});
-
-it("renders <SteamBanner /> component unchanged", () => {
-  const { container } = render(<SteamBanner />);
-  expect(container).toMatchSnapshot();
-});
-
-it("renders <SteamWidget /> component unchanged", () => {
-  const { container } = render(<SteamWidget />);
   expect(container).toMatchSnapshot();
 });
 
