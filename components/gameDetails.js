@@ -1,6 +1,7 @@
 import { useState } from "react";
 import GameDetailsSection from "./gameDetailsSection";
 import { GameConfig } from "../siteConfig/gameConfig";
+import AssetLinks from "../components/assetLinks";
 
 export default function GameDetails() {
   const [selectedGame, setSelectedGame] = useState("showrunner");
@@ -21,8 +22,8 @@ export default function GameDetails() {
           <li
             onClick={(e) => handleClick("showrunner", e)}
             className={`w-1/2 text-xl cursor-pointer h-full ${selectedGame === "showrunner"
-                ? activeTabStyles
-                : inactiveTabStyles
+              ? activeTabStyles
+              : inactiveTabStyles
               }`}
           >
             <div>{GameConfig.showrunner.name}</div>
@@ -30,8 +31,8 @@ export default function GameDetails() {
           <li
             onClick={(e) => handleClick("thisMerchantLife", e)}
             className={`w-1/2 text-xl cursor-pointer h-full ${selectedGame === "thisMerchantLife"
-                ? activeTabStyles
-                : inactiveTabStyles
+              ? activeTabStyles
+              : inactiveTabStyles
               }`}
           >
             <div>{GameConfig.thisMerchantLife.name}</div>
@@ -56,8 +57,10 @@ export default function GameDetails() {
             content={GameConfig[selectedGame].steamStoreId}
             storeLink
           />
+          <AssetLinks title="Logos, banners, image assets" game={selectedGame} />
+
         </div>
       </div>
-    </div>
+    </div >
   );
 }
