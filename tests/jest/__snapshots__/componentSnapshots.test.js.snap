@@ -1,5 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`renders <AssetLinks /> component unchanged 1`] = `
+<div>
+  <div
+    class="py-6 mx-5"
+  >
+    <div
+      class="text-lg mb-2"
+    >
+      Assets
+    </div>
+    <a
+      class="underline"
+      href="/pressAssets/showrunner/assets.zip"
+    >
+      Download zip file
+    </a>
+  </div>
+</div>
+`;
+
 exports[`renders <BuyButton /> component unchanged 1`] = `
 <div>
   <a
@@ -578,6 +598,21 @@ exports[`renders <GameDetails /> component unchanged 1`] = `
               </div>
             </a>
           </div>
+        </div>
+        <div
+          class="py-6 mx-5"
+        >
+          <div
+            class="text-lg mb-2"
+          >
+            Logos, banners, image assets
+          </div>
+          <a
+            class="underline"
+            href="/pressAssets/showrunner/assets.zip"
+          >
+            Download zip file
+          </a>
         </div>
       </div>
     </div>

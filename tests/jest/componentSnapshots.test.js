@@ -12,6 +12,14 @@ import GameDetailsSection from "../../components/gameDetailsSection";
 import PresskitSection from "../../components/presskitSection";
 import NavBar from "../../components/navBar";
 import Video from "../../components/video";
+import AssetLinks from "../../components/assetLinks";
+
+it("renders <AssetLinks /> component unchanged", () => {
+  const { container } = render(
+    <AssetLinks title="Assets" game="showrunner" />
+  )
+  expect(container).toMatchSnapshot();
+})
 
 it("renders <BuyButton /> component unchanged", () => {
   const { container } = render(
