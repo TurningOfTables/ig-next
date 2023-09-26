@@ -1,4 +1,4 @@
-# Inexpllicable Games NextJS App
+# Inexplicable Games NextJS App
 
 ## Install
 
