@@ -13,11 +13,11 @@ export default function BuyButton({ steamStoreId, name, themeColourCode }) {
     >
       <div className="flex mr-1">
         <Image
-          alt="Twitter logo"
-          data-testid="twitter-logo"
+          alt="Steam logo"
+          data-testid="steam-logo"
           src="/steamLogo.png"
-          width="32px"
-          height="32px"
+          width="32"
+          height="32"
         />
       </div>
 

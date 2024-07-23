@@ -13,6 +13,9 @@ import PresskitSection from "../../components/presskitSection";
 import NavBar from "../../components/navBar";
 import Video from "../../components/video";
 import AssetLinks from "../../components/assetLinks";
+import mockRouter from 'next-router-mock';
+
+jest.mock('next/router', () => jest.requireActual('next-router-mock'))
 
 it("renders <AssetLinks /> component unchanged", () => {
   const { container } = render(

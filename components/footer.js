@@ -16,8 +16,8 @@ export default function Footer() {
           alt="Twitter logo"
           data-testid="twitter-logo"
           src="/twitterLogo.png"
-          width="32px"
-          height="32px"
+          width="32"
+          height="32"
         />
         <div className="text-lg ml-2">@Inexplicable_G</div>
       </a>

@@ -12,7 +12,7 @@ export default function Home() {
       <SharedHead />
       <NavBar />
 
-      <main className="m-10 text-center subpixel-antialiased">
+      <main className="mx-auto m-10 text-center justify-center subpixel-antialiased">
         <Image
           data-testid="header-image"
           src={headerImage}
