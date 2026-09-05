@@ -11,32 +11,33 @@
     "test": "jest && npx playwright test",
     "test:component": "jest",
     "test:ui": "npx playwright test",
+    "test:updatesnapshots": "jest -u",
     "prepare": "husky install"
   },
   "dependencies": {
-    "next": "^14.2.5",
-    "node-fetch": "^3.2.10",
+    "next": "^16.3.4",
+    "node-fetch": "^3.3.2",
     "react": "18.3.1",
     "react-dom": "18.2.0",
     "react-google-recaptcha": "^2.1.0",
-    "sharp": "^0.33.4"
+    "sharp": "^0.35.4"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.18.2",
-    "@babel/preset-react": "^7.17.12",
-    "@playwright/test": "^1.22.2",
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.3.0",
-    "autoprefixer": "^10.4.7",
-    "babel-jest": "^28.1.1",
+    "@babel/preset-env": "^7.29.7",
+    "@babel/preset-react": "^7.29.7",
+    "@playwright/test": "^1.63.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "autoprefixer": "^10.5.5",
+    "babel-jest": "^28.1.3",
     "eslint": "8.18.0",
     "eslint-config-next": "12.1.6",
-    "husky": "^8.0.1",
-    "jest": "^28.1.2",
-    "jest-environment-jsdom": "^28.1.2",
+    "husky": "^8.0.3",
+    "jest": "^28.1.3",
+    "jest-environment-jsdom": "^28.1.3",
     "next-router-mock": "^0.9.13",
-    "postcss": "^8.4.14",
+    "postcss": "^8.5.28",
     "react-test-renderer": "^18.3.1",
-    "tailwindcss": "^3.1.4"
+    "tailwindcss": "^3.4.19"
   }
 }

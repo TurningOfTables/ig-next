@@ -127,7 +127,7 @@ exports[`renders <FeatureSection /> component unchanged 1`] = `
             height="16"
             loading="lazy"
             src="/_next/image?url=%2Fzoom.png&w=32&q=75"
-            srcset="/_next/image?url=%2Fzoom.png&w=16&q=75 1x, /_next/image?url=%2Fzoom.png&w=32&q=75 2x"
+            srcset="/_next/image?url=%2Fzoom.png&w=32&q=75 1x"
             style="color: transparent;"
             width="16"
           />
@@ -176,7 +176,7 @@ exports[`renders <FeatureSection /> reversed component unchanged 1`] = `
             height="16"
             loading="lazy"
             src="/_next/image?url=%2Fzoom.png&w=32&q=75"
-            srcset="/_next/image?url=%2Fzoom.png&w=16&q=75 1x, /_next/image?url=%2Fzoom.png&w=32&q=75 2x"
+            srcset="/_next/image?url=%2Fzoom.png&w=32&q=75 1x"
             style="color: transparent;"
             width="16"
           />

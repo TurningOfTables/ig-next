@@ -6,5 +6,5 @@ export const CompanyConfig = {
     quote: "Two roads diverged in a wood, and I ... I took the one just covered with brambles, Got covered in cuts and barely made it out alive.",
     quoteAttribution: "~ Robert Frost",
     twitter: "https://twitter.com/Inexplicable_G",
-    website: "https://www.inexplicable-games.com",
+    website: "https://www.inexplicablegames.com",
 }
